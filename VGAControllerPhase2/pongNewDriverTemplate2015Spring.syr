@@ -1,0 +1,764 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.61 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.61 secs
+ 
+--> Reading design: pongNewDriverTemplate2015Spring.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pongNewDriverTemplate2015Spring.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pongNewDriverTemplate2015Spring"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : pongNewDriverTemplate2015Spring
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\UniversalCounter10bitsV5.v" into library work
+Parsing module <UniversalCounter10bitsV5>.
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ClockedNegativeOneShot.v" into library work
+Parsing module <ClockedNegativeOneShot>.
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\vsyncModuleTemplate.v" into library work
+Parsing module <vsyncModuleTemplate>.
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\hsyncModuleVer5.v" into library work
+Parsing module <hsyncModuleVer5>.
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTClockTemplate.v" into library work
+Parsing module <CRTClockTemplate>.
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" into library work
+Parsing module <game>.
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTcontrollerVer5.v" into library work
+Parsing module <CRTcontrollerVer5>.
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" into library work
+Parsing module <pongNewDriverTemplate2015Spring>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <pongNewDriverTemplate2015Spring>.
+
+Elaborating module <CRTcontrollerVer5>.
+
+Elaborating module <CRTClockTemplate>.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTClockTemplate.v" Line 26: Result of 11-bit expression is truncated to fit in 10-bit target.
+
+Elaborating module <hsyncModuleVer5>.
+
+Elaborating module <ClockedNegativeOneShot>.
+
+Elaborating module <UniversalCounter10bitsV5>.
+
+Elaborating module <vsyncModuleTemplate>.
+
+Elaborating module <game>.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 42: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 46: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 67: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 69: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 72: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 74: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 123: Result of 32-bit expression is truncated to fit in 6-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <pongNewDriverTemplate2015Spring>.
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v".
+        NumberofPixels = 10'b1010000000
+        NumberofLines = 10'b0111100000
+        SystemClock = 10'b0001100100
+    Summary:
+	no macro.
+Unit <pongNewDriverTemplate2015Spring> synthesized.
+
+Synthesizing Unit <CRTcontrollerVer5>.
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTcontrollerVer5.v".
+        ResolutionSize = 10
+        SystemClockSize = 10
+        hSynchPulse = 10'b0001011111
+        hFrontPorch = 10'b0000011001
+        hBackPorch = 10'b0000101000
+        vSynchPulse = 10'b0000000010
+        vFrontPorch = 10'b0000001010
+        vBackPorch = 10'b0000011101
+    Summary:
+	no macro.
+Unit <CRTcontrollerVer5> synthesized.
+
+Synthesizing Unit <CRTClockTemplate>.
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTClockTemplate.v".
+        SystemClockSize = 10
+        PixelClock = 25
+    Found 1-bit register for signal <CRTclock>.
+    Found 10-bit register for signal <Count>.
+    Found 10-bit subtractor for signal <GND_3_o_GND_3_o_sub_4_OUT> created at line 23.
+    Found 10-bit adder for signal <Count[9]_GND_3_o_add_5_OUT> created at line 26.
+    Found 32-bit comparator equal for signal <GND_3_o_GND_3_o_equal_5_o> created at line 23
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  11 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <CRTClockTemplate> synthesized.
+
+Synthesizing Unit <div_10u_5u>.
+    Related source file is "".
+    Found 14-bit adder for signal <GND_4_o_b[4]_add_3_OUT> created at line 0.
+    Found 13-bit adder for signal <GND_4_o_b[4]_add_5_OUT> created at line 0.
+    Found 12-bit adder for signal <GND_4_o_b[4]_add_7_OUT> created at line 0.
+    Found 11-bit adder for signal <GND_4_o_b[4]_add_9_OUT> created at line 0.
+    Found 10-bit adder for signal <a[9]_b[4]_add_11_OUT> created at line 0.
+    Found 10-bit adder for signal <a[9]_GND_4_o_add_13_OUT> created at line 0.
+    Found 10-bit adder for signal <a[9]_GND_4_o_add_15_OUT[9:0]> created at line 0.
+    Found 10-bit adder for signal <a[9]_GND_4_o_add_17_OUT[9:0]> created at line 0.
+    Found 10-bit adder for signal <a[9]_GND_4_o_add_19_OUT[9:0]> created at line 0.
+    Found 14-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 13-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 12-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 11-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 10-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Summary:
+	inferred   9 Adder/Subtractor(s).
+	inferred  10 Comparator(s).
+	inferred  63 Multiplexer(s).
+Unit <div_10u_5u> synthesized.
+
+Synthesizing Unit <hsyncModuleVer5>.
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\hsyncModuleVer5.v".
+        xresolution = 10
+INFO:Xst:3210 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\hsyncModuleVer5.v" line 35: Output port <TerminalCount> of the instance <XPositionCounter> is unconnected or connected to loadless signal.
+    Found 10-bit comparator lessequal for signal <n0004> created at line 28
+    Found 10-bit comparator lessequal for signal <n0007> created at line 28
+    Summary:
+	inferred   2 Comparator(s).
+Unit <hsyncModuleVer5> synthesized.
+
+Synthesizing Unit <ClockedNegativeOneShot>.
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ClockedNegativeOneShot.v".
+        State0 = 0
+        State1 = 1
+        State2 = 2
+        State3 = 3
+    Found 2-bit register for signal <State>.
+    Found finite state machine <FSM_0> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | CLOCK (rising_edge)                            |
+    | Reset              | Reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <ClockedNegativeOneShot> synthesized.
+
+Synthesizing Unit <UniversalCounter10bitsV5>.
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\UniversalCounter10bitsV5.v".
+        length = 10
+    Found 1-bit register for signal <Q<9>>.
+    Found 1-bit register for signal <Q<8>>.
+    Found 1-bit register for signal <Q<7>>.
+    Found 1-bit register for signal <Q<6>>.
+    Found 1-bit register for signal <Q<5>>.
+    Found 1-bit register for signal <Q<4>>.
+    Found 1-bit register for signal <Q<3>>.
+    Found 1-bit register for signal <Q<2>>.
+    Found 1-bit register for signal <Q<1>>.
+    Found 1-bit register for signal <Q<0>>.
+    Found 10-bit subtractor for signal <Q[9]_GND_7_o_sub_7_OUT> created at line 25.
+    Found 10-bit adder for signal <Q[9]_GND_7_o_add_3_OUT> created at line 22.
+    Found 10-bit 4-to-1 multiplexer for signal <NextQ> created at line 19.
+    Found 1-bit 4-to-1 multiplexer for signal <TerminalCount> created at line 19.
+    Found 10-bit comparator lessequal for signal <n0001> created at line 21
+    Found 10-bit comparator equal for signal <Q[9]_BeginCount[9]_equal_6_o> created at line 24
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  10 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred  11 Multiplexer(s).
+Unit <UniversalCounter10bitsV5> synthesized.
+
+Synthesizing Unit <vsyncModuleTemplate>.
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\vsyncModuleTemplate.v".
+        yresolution = 10
+INFO:Xst:3210 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\vsyncModuleTemplate.v" line 31: Output port <TerminalCount> of the instance <YPositionCounter> is unconnected or connected to loadless signal.
+    Found 10-bit comparator greater for signal <ActiveVideo[9]_ycount[9]_LessThan_6_o> created at line 27
+    Found 10-bit comparator lessequal for signal <n0008> created at line 27
+    Summary:
+	inferred   2 Comparator(s).
+Unit <vsyncModuleTemplate> synthesized.
+
+Synthesizing Unit <game>.
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v".
+    Found 3-bit register for signal <quadBr>.
+    Found 9-bit register for signal <paddlePosition>.
+    Found 10-bit register for signal <ballX>.
+    Found 9-bit register for signal <ballY>.
+    Found 1-bit register for signal <bounceX>.
+    Found 1-bit register for signal <bounceY>.
+    Found 6-bit register for signal <missTimer>.
+    Found 1-bit register for signal <ballXdir>.
+    Found 1-bit register for signal <ballYdir>.
+    Found 3-bit register for signal <quadAr>.
+    Found 10-bit adder for signal <ballX[9]_GND_9_o_add_20_OUT> created at line 67.
+    Found 9-bit adder for signal <ballY[8]_GND_9_o_add_23_OUT> created at line 72.
+    Found 10-bit adder for signal <n0166> created at line 87.
+    Found 10-bit adder for signal <n0167> created at line 87.
+    Found 11-bit adder for signal <n0169> created at line 88.
+    Found 10-bit adder for signal <n0171> created at line 88.
+    Found 9-bit subtractor for signal <GND_9_o_GND_9_o_sub_10_OUT<8:0>> created at line 46.
+    Found 10-bit subtractor for signal <GND_9_o_GND_9_o_sub_22_OUT<9:0>> created at line 69.
+    Found 9-bit subtractor for signal <GND_9_o_GND_9_o_sub_25_OUT<8:0>> created at line 74.
+    Found 6-bit subtractor for signal <GND_9_o_GND_9_o_sub_58_OUT<5:0>> created at line 123.
+    Found 9-bit comparator lessequal for signal <paddlePosition[8]_PWR_10_o_LessThan_6_o> created at line 41
+    Found 9-bit comparator lessequal for signal <GND_9_o_paddlePosition[8]_LessThan_9_o> created at line 45
+    Found 10-bit comparator greater for signal <xpos[9]_PWR_10_o_LessThan_33_o> created at line 81
+    Found 10-bit comparator greater for signal <ypos[9]_GND_9_o_LessThan_34_o> created at line 81
+    Found 10-bit comparator lessequal for signal <n0039> created at line 82
+    Found 10-bit comparator lessequal for signal <n0042> created at line 83
+    Found 10-bit comparator lessequal for signal <n0045> created at line 84
+    Found 10-bit comparator lessequal for signal <n0048> created at line 85
+    Found 10-bit comparator lessequal for signal <n0055> created at line 87
+    Found 10-bit comparator lessequal for signal <n0058> created at line 87
+    Found 10-bit comparator lessequal for signal <n0061> created at line 87
+    Found 10-bit comparator lessequal for signal <n0064> created at line 87
+    Found 10-bit comparator lessequal for signal <n0067> created at line 88
+    Found 11-bit comparator lessequal for signal <n0070> created at line 88
+    Found 10-bit comparator lessequal for signal <n0073> created at line 88
+    Found 10-bit comparator lessequal for signal <n0077> created at line 88
+    Summary:
+	inferred   8 Adder/Subtractor(s).
+	inferred  44 D-type flip-flop(s).
+	inferred  16 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <game> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 21
+ 10-bit adder                                          : 9
+ 10-bit addsub                                         : 3
+ 10-bit subtractor                                     : 1
+ 11-bit adder                                          : 2
+ 12-bit adder                                          : 1
+ 13-bit adder                                          : 1
+ 14-bit adder                                          : 1
+ 6-bit subtractor                                      : 1
+ 9-bit addsub                                          : 1
+ 9-bit subtractor                                      : 1
+# Registers                                            : 32
+ 1-bit register                                        : 25
+ 10-bit register                                       : 2
+ 3-bit register                                        : 2
+ 6-bit register                                        : 1
+ 9-bit register                                        : 2
+# Comparators                                          : 35
+ 10-bit comparator equal                               : 2
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 22
+ 11-bit comparator lessequal                           : 2
+ 12-bit comparator lessequal                           : 1
+ 13-bit comparator lessequal                           : 1
+ 14-bit comparator lessequal                           : 1
+ 32-bit comparator equal                               : 1
+ 9-bit comparator lessequal                            : 2
+# Multiplexers                                         : 88
+ 1-bit 2-to-1 multiplexer                              : 60
+ 1-bit 4-to-1 multiplexer                              : 2
+ 10-bit 2-to-1 multiplexer                             : 24
+ 9-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 3
+# Xors                                                 : 5
+ 1-bit xor2                                            : 4
+ 1-bit xor4                                            : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <CRTClockTemplate>.
+The following registers are absorbed into counter <Count>: 1 register on signal <Count>.
+Unit <CRTClockTemplate> synthesized (advanced).
+
+Synthesizing (advanced) Unit <game>.
+The following registers are absorbed into counter <missTimer>: 1 register on signal <missTimer>.
+Unit <game> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 19
+ 10-bit adder                                          : 12
+ 10-bit addsub                                         : 3
+ 10-bit subtractor                                     : 1
+ 11-bit adder                                          : 1
+ 9-bit addsub                                          : 1
+ 9-bit subtractor                                      : 1
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 6-bit down counter                                    : 1
+# Registers                                            : 59
+ Flip-Flops                                            : 59
+# Comparators                                          : 35
+ 10-bit comparator equal                               : 2
+ 10-bit comparator greater                             : 3
+ 10-bit comparator lessequal                           : 22
+ 11-bit comparator lessequal                           : 2
+ 12-bit comparator lessequal                           : 1
+ 13-bit comparator lessequal                           : 1
+ 14-bit comparator lessequal                           : 1
+ 32-bit comparator equal                               : 1
+ 9-bit comparator lessequal                            : 2
+# Multiplexers                                         : 88
+ 1-bit 2-to-1 multiplexer                              : 60
+ 1-bit 4-to-1 multiplexer                              : 2
+ 10-bit 2-to-1 multiplexer                             : 24
+ 9-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 3
+# Xors                                                 : 5
+ 1-bit xor2                                            : 4
+ 1-bit xor4                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <VGAcontroller/hsyncModule/FSM_0> on signal <State[1:3]> with one-hot encoding.
+Optimizing FSM <VGAcontroller/hsyncModule/FSM_0> on signal <State[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 001
+ 01    | 010
+ 11    | 100
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <VGAcontroller/vsyncModule/FSM_0> on signal <State[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 001
+ 01    | 010
+ 11    | 100
+-------------------
+WARNING:Xst:1710 - FF/Latch <RestartUnit/State_FSM_FFd2> (without init value) has a constant value of 0 in block <hsyncModuleVer5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <paddlePosition_0> (without init value) has a constant value of 0 in block <game>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddlePosition_1> (without init value) has a constant value of 0 in block <game>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    Q_0 in unit <UniversalCounter10bitsV5>
+    Q_1 in unit <UniversalCounter10bitsV5>
+    Q_3 in unit <UniversalCounter10bitsV5>
+    Q_4 in unit <UniversalCounter10bitsV5>
+    Q_2 in unit <UniversalCounter10bitsV5>
+    Q_6 in unit <UniversalCounter10bitsV5>
+    Q_7 in unit <UniversalCounter10bitsV5>
+    Q_5 in unit <UniversalCounter10bitsV5>
+    Q_9 in unit <UniversalCounter10bitsV5>
+    Q_8 in unit <UniversalCounter10bitsV5>
+
+
+Optimizing unit <pongNewDriverTemplate2015Spring> ...
+
+Optimizing unit <hsyncModuleVer5> ...
+
+Optimizing unit <UniversalCounter10bitsV5> ...
+
+Optimizing unit <vsyncModuleTemplate> ...
+
+Optimizing unit <game> ...
+WARNING:Xst:1710 - FF/Latch <VGAcontroller/CRTclockUnit/Count_1> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_2> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_3> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_4> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_5> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_6> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_7> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_8> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_9> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <game_inst/ballY_0> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <game_inst/ballX_0> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <game_inst/ballY_1> in Unit <pongNewDriverTemplate2015Spring> is equivalent to the following FF/Latch, which will be removed : <game_inst/ballX_1> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pongNewDriverTemplate2015Spring, actual ratio is 3.
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_0 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_1 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_2 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_3 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_4 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_5 has been replicated 2 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_6 has been replicated 1 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_0 has been replicated 1 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_1 has been replicated 1 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_2 has been replicated 1 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_3 has been replicated 1 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_5 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <pongNewDriverTemplate2015Spring> :
+	Found 2-bit shift register for signal <game_inst/quadAr_1>.
+	Found 2-bit shift register for signal <game_inst/quadBr_1>.
+Unit <pongNewDriverTemplate2015Spring> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 75
+ Flip-Flops                                            : 75
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : pongNewDriverTemplate2015Spring.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 386
+#      GND                         : 1
+#      INV                         : 6
+#      LUT2                        : 32
+#      LUT3                        : 25
+#      LUT4                        : 75
+#      LUT5                        : 79
+#      LUT6                        : 112
+#      MUXCY                       : 42
+#      MUXF7                       : 12
+#      VCC                         : 1
+#      XORCY                       : 1
+# FlipFlops/Latches                : 77
+#      FD                          : 8
+#      FDC                         : 34
+#      FDE                         : 25
+#      FDR                         : 5
+#      FDRE                        : 1
+#      FDS                         : 2
+#      FDSE                        : 2
+# Shift Registers                  : 2
+#      SRLC16E                     : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 3
+#      OBUF                        : 10
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              77  out of  18224     0%  
+ Number of Slice LUTs:                  331  out of   9112     3%  
+    Number used as Logic:               329  out of   9112     3%  
+    Number used as Memory:                2  out of   2176     0%  
+       Number used as SRL:                2
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    346
+   Number with an unused Flip Flop:     269  out of    346    77%  
+   Number with an unused LUT:            15  out of    346     4%  
+   Number of fully used LUT-FF pairs:    62  out of    346    17%  
+   Number of unique control sets:        13
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clock                              | BUFGP                  | 79    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 6.347ns (Maximum Frequency: 157.567MHz)
+   Minimum input arrival time before clock: 5.685ns
+   Maximum output required time after clock: 9.927ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clock'
+  Clock period: 6.347ns (frequency: 157.567MHz)
+  Total number of paths / destination ports: 13511 / 110
+-------------------------------------------------------------------------
+Delay:               6.347ns (Levels of Logic = 6)
+  Source:            VGAcontroller/vsyncModule/YPositionCounter/Q_8 (FF)
+  Destination:       VGAcontroller/vsyncModule/YPositionCounter/Q_8 (FF)
+  Source Clock:      Clock rising
+  Destination Clock: Clock rising
+
+  Data Path: VGAcontroller/vsyncModule/YPositionCounter/Q_8 to VGAcontroller/vsyncModule/YPositionCounter/Q_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             14   0.447   1.186  VGAcontroller/vsyncModule/YPositionCounter/Q_8 (VGAcontroller/vsyncModule/YPositionCounter/Q_8)
+     LUT4:I1->O            1   0.205   0.000  VGAcontroller/vsyncModule/YPositionCounter/Mcompar_EndCount[9]_Q[9]_LessThan_3_o_lut<4> (VGAcontroller/vsyncModule/YPositionCounter/Mcompar_EndCount[9]_Q[9]_LessThan_3_o_lut<4>)
+     MUXCY:S->O           24   0.366   1.173  VGAcontroller/vsyncModule/YPositionCounter/Mcompar_EndCount[9]_Q[9]_LessThan_3_o_cy<4> (VGAcontroller/vsyncModule/YPositionCounter/EndCount[9]_Q[9]_LessThan_3_o)
+     LUT2:I1->O            1   0.205   0.684  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_A61_G (N173)
+     LUT3:I1->O            4   0.203   0.788  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_A611 (VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_A<5>)
+     LUT6:I4->O            1   0.203   0.580  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_xor<9>11_SW0 (N54)
+     LUT6:I5->O            1   0.205   0.000  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_xor<9>11 (VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_split<9>)
+     FDC:D                     0.102          VGAcontroller/vsyncModule/YPositionCounter/Q_9
+    ----------------------------------------
+    Total                      6.347ns (1.936ns logic, 4.411ns route)
+                                       (30.5% logic, 69.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
+  Total number of paths / destination ports: 71 / 66
+-------------------------------------------------------------------------
+Offset:              5.685ns (Levels of Logic = 5)
+  Source:            Reset (PAD)
+  Destination:       game_inst/missTimer_5 (FF)
+  Destination Clock: Clock rising
+
+  Data Path: Reset to game_inst/missTimer_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            50   1.222   1.795  Reset_IBUF (Reset_IBUF)
+     LUT4:I0->O           16   0.203   1.005  game_inst/GND_9_o_GND_9_o_OR_45_o4 (game_inst/GND_9_o_GND_9_o_OR_45_o)
+     LUT6:I5->O            1   0.205   0.000  game_inst/_n02161_SW7_G (N131)
+     MUXF7:I1->O           1   0.140   0.808  game_inst/_n02161_SW7 (N117)
+     LUT6:I3->O            1   0.205   0.000  game_inst/missTimer_5_rstpot (game_inst/missTimer_5_rstpot)
+     FD:D                      0.102          game_inst/missTimer_5
+    ----------------------------------------
+    Total                      5.685ns (2.077ns logic, 3.608ns route)
+                                       (36.5% logic, 63.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
+  Total number of paths / destination ports: 1669 / 6
+-------------------------------------------------------------------------
+Offset:              9.927ns (Levels of Logic = 7)
+  Source:            game_inst/ballY_1 (FF)
+  Destination:       blue<0> (PAD)
+  Source Clock:      Clock rising
+
+  Data Path: game_inst/ballY_1 to blue<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             28   0.447   1.235  game_inst/ballY_1 (game_inst/ballY_1)
+     LUT5:I4->O            4   0.205   0.684  game_inst/Madd_n0169_cy<5>11 (game_inst/Madd_n0169_cy<5>)
+     LUT5:I4->O            2   0.205   0.961  game_inst/Madd_n0169_xor<9>11 (game_inst/n0169<9>)
+     LUT5:I0->O            0   0.203   0.000  game_inst/Mcompar_GND_9_o_BUS_0006_LessThan_47_o_lutdi4 (game_inst/Mcompar_GND_9_o_BUS_0006_LessThan_47_o_lutdi4)
+     MUXCY:DI->O           9   0.339   1.077  game_inst/Mcompar_GND_9_o_BUS_0006_LessThan_47_o_cy<4> (game_inst/GND_9_o_BUS_0006_LessThan_47_o)
+     LUT4:I0->O            3   0.203   1.015  game_inst/ball1 (game_inst/ball)
+     LUT6:I0->O            1   0.203   0.579  game_inst/blue<0> (blue_0_OBUF)
+     OBUF:I->O                 2.571          blue_0_OBUF (blue<0>)
+    ----------------------------------------
+    Total                      9.927ns (4.376ns logic, 5.551ns route)
+                                       (44.1% logic, 55.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clock          |    6.347|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 28.00 secs
+Total CPU time to Xst completion: 27.72 secs
+ 
+--> 
+
+Total memory usage is 266760 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   23 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

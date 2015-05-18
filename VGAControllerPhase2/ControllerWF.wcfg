@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/CRTcontrollerVer5TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CRTcontrollerVer5TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/CRTcontrollerVer5TB/hsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/vsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/xposition" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">xposition[9:0]</obj_property>
+      <obj_property name="ObjectShortName">xposition[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/yposition" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">yposition[9:0]</obj_property>
+      <obj_property name="ObjectShortName">yposition[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/PixelClock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PixelClock</obj_property>
+      <obj_property name="ObjectShortName">PixelClock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/Xresolution" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Xresolution[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Xresolution[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/uut/hSynchPulse" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hSynchPulse[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hSynchPulse[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/uut/hFrontPorch" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hFrontPorch[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hFrontPorch[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/uut/hBackPorch" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hBackPorch[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hBackPorch[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/Yresolution" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Yresolution[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Yresolution[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/uut/vSynchPulse" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vSynchPulse[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vSynchPulse[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/uut/vFrontPorch" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vFrontPorch[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vFrontPorch[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/uut/vBackPorch" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vBackPorch[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vBackPorch[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/SystemClock" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SystemClock[9:0]</obj_property>
+      <obj_property name="ObjectShortName">SystemClock[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CRTcontrollerVer5TB/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+</wave_config>

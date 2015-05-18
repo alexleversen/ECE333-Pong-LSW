@@ -1,0 +1,29 @@
+Command line:
+   vsyncModuleTemplateTB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60541
+
+Mon May 18 09:03:36 2015
+
+
+ Elaboration Time: 0.202801 sec
+
+ Current Memory Usage: 1320.48 Meg
+
+ Total Signals          : 37
+ Total Nets             : 111
+ Total Signal Drivers   : 22
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 35
+ Total Traceable Variables  : 37
+ Total Scalar Nets and Variables : 460
+Total Line Count : 48
+
+ Total Simulation Time: 0.249601 sec
+
+ Current Memory Usage: 691.302 Meg
+
+Mon May 18 09:12:48 2015
+

@@ -1,0 +1,8 @@
+verilog work "UniversalCounter10bitsV5.v"
+verilog work "ClockedNegativeOneShot.v"
+verilog work "vsyncModuleTemplate.v"
+verilog work "hsyncModuleVer5.v"
+verilog work "CRTClockTemplate.v"
+verilog work "game.v"
+verilog work "CRTcontrollerVer5.v"
+verilog work "pongNewDriverTemplate2015Spring.v"
