@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\pongNewDriverTemplate2015Spring.ncd
-OUTFILE=C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\pongNewDriverTemplate2015Spring.bit
+INFILE=C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.ncd
+OUTFILE=C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2
+WORKINGDIR=C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2
 LICENSE=WebPack
 USER_INFO=211019778_0_0_652

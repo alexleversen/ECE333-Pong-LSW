@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/MusicScore.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/Github/ECE333-Pong-LSW/VGAControllerPhase2/pongNewDriverTemplate2015Spring.v&quot; into library work</arg>
 </msg>
 
 </messages>

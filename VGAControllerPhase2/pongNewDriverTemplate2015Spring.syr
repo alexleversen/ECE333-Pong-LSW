@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.22 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.22 secs
  
 --> Reading design: pongNewDriverTemplate2015Spring.prj
 
@@ -105,39 +105,39 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\WaveForm.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\WaveForm.v" into library work
 Parsing module <Waveform>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\UniversalCounter10bitsV5.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\UniversalCounter10bitsV5.v" into library work
 Parsing module <UniversalCounter10bitsV5>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\OneSecElapseTime.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\OneSecElapseTime.v" into library work
 Parsing module <OneSecElapseTime>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\NoteMap.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\NoteMap.v" into library work
 Parsing module <NoteMap>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\InputModule.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\InputModule.v" into library work
 Parsing module <InputModule>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ClockedNegativeOneShot.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\ClockedNegativeOneShot.v" into library work
 Parsing module <ClockedNegativeOneShot>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\vsyncModuleTemplate.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\vsyncModuleTemplate.v" into library work
 Parsing module <vsyncModuleTemplate>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ThreeMusicNotes.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\ThreeMusicNotes.v" into library work
 Parsing module <ThreeMusicNotes>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\SheetReader.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\SheetReader.v" into library work
 Parsing module <MusicSheetReader>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\PlayNote2.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\PlayNote2.v" into library work
 Parsing module <PlayNote2>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\MusicScore.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\MusicScore.v" into library work
 Parsing module <MusicScore>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\hsyncModuleVer5.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\hsyncModuleVer5.v" into library work
 Parsing module <hsyncModuleVer5>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTClockTemplate.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\CRTClockTemplate.v" into library work
 Parsing module <CRTClockTemplate>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\PlaySound.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\PlaySound.v" into library work
 Parsing module <PlaySound>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\game.v" into library work
 Parsing module <game>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTcontrollerVer5.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\CRTcontrollerVer5.v" into library work
 Parsing module <CRTcontrollerVer5>.
-Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" into library work
 Parsing module <pongNewDriverTemplate2015Spring>.
 
 =========================================================================
@@ -149,7 +149,7 @@ Elaborating module <pongNewDriverTemplate2015Spring>.
 Elaborating module <CRTcontrollerVer5>.
 
 Elaborating module <CRTClockTemplate>.
-WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTClockTemplate.v" Line 26: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\CRTClockTemplate.v" Line 26: Result of 11-bit expression is truncated to fit in 10-bit target.
 
 Elaborating module <hsyncModuleVer5>.
 
@@ -164,8 +164,8 @@ Elaborating module <PlaySound>.
 Elaborating module <MusicSheetReader>.
 
 Elaborating module <MusicScore>.
-WARNING:HDLCompiler:634 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\MusicScore.v" Line 14: Net <Keys2[2][3]> does not have a driver.
-WARNING:HDLCompiler:634 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\MusicScore.v" Line 16: Net <Times2[2][3]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\MusicScore.v" Line 14: Net <Keys2[2][3]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\MusicScore.v" Line 16: Net <Times2[2][3]> does not have a driver.
 
 Elaborating module <PlayNote2>.
 
@@ -176,25 +176,25 @@ Elaborating module <NoteMap>.
 Elaborating module <ThreeMusicNotes>.
 
 Elaborating module <InputModule>.
-WARNING:HDLCompiler:189 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ThreeMusicNotes.v" Line 17: Size mismatch in connection of port <NoteC>. Formal port size is 25-bit while actual signal size is 20-bit.
+WARNING:HDLCompiler:189 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\ThreeMusicNotes.v" Line 17: Size mismatch in connection of port <NoteC>. Formal port size is 25-bit while actual signal size is 20-bit.
 
 Elaborating module <Waveform>.
 
 Elaborating module <game>.
-WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 50: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 54: Result of 32-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 78: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 80: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 83: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 85: Result of 32-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 136: Result of 32-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 50: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 54: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 78: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 80: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 83: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 85: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 136: Result of 32-bit expression is truncated to fit in 6-bit target.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <pongNewDriverTemplate2015Spring>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v".
         NumberofPixels = 10'b1010000000
         NumberofLines = 10'b0111100000
         SystemClock = 10'b0001100100
@@ -203,7 +203,7 @@ Synthesizing Unit <pongNewDriverTemplate2015Spring>.
 Unit <pongNewDriverTemplate2015Spring> synthesized.
 
 Synthesizing Unit <CRTcontrollerVer5>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTcontrollerVer5.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\CRTcontrollerVer5.v".
         ResolutionSize = 10
         SystemClockSize = 10
         hSynchPulse = 10'b0001011111
@@ -217,7 +217,7 @@ Synthesizing Unit <CRTcontrollerVer5>.
 Unit <CRTcontrollerVer5> synthesized.
 
 Synthesizing Unit <CRTClockTemplate>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTClockTemplate.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\CRTClockTemplate.v".
         SystemClockSize = 10
         PixelClock = 25
     Found 1-bit register for signal <CRTclock>.
@@ -259,9 +259,9 @@ Synthesizing Unit <div_10u_5u>.
 Unit <div_10u_5u> synthesized.
 
 Synthesizing Unit <hsyncModuleVer5>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\hsyncModuleVer5.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\hsyncModuleVer5.v".
         xresolution = 10
-INFO:Xst:3210 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\hsyncModuleVer5.v" line 35: Output port <TerminalCount> of the instance <XPositionCounter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\hsyncModuleVer5.v" line 35: Output port <TerminalCount> of the instance <XPositionCounter> is unconnected or connected to loadless signal.
     Found 10-bit comparator lessequal for signal <n0004> created at line 28
     Found 10-bit comparator lessequal for signal <n0007> created at line 28
     Summary:
@@ -269,7 +269,7 @@ INFO:Xst:3210 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Projec
 Unit <hsyncModuleVer5> synthesized.
 
 Synthesizing Unit <ClockedNegativeOneShot>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ClockedNegativeOneShot.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\ClockedNegativeOneShot.v".
         State0 = 0
         State1 = 1
         State2 = 2
@@ -293,7 +293,7 @@ Synthesizing Unit <ClockedNegativeOneShot>.
 Unit <ClockedNegativeOneShot> synthesized.
 
 Synthesizing Unit <UniversalCounter10bitsV5>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\UniversalCounter10bitsV5.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\UniversalCounter10bitsV5.v".
         length = 10
     Found 1-bit register for signal <Q<9>>.
     Found 1-bit register for signal <Q<8>>.
@@ -319,9 +319,9 @@ Synthesizing Unit <UniversalCounter10bitsV5>.
 Unit <UniversalCounter10bitsV5> synthesized.
 
 Synthesizing Unit <vsyncModuleTemplate>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\vsyncModuleTemplate.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\vsyncModuleTemplate.v".
         yresolution = 10
-INFO:Xst:3210 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\vsyncModuleTemplate.v" line 31: Output port <TerminalCount> of the instance <YPositionCounter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\vsyncModuleTemplate.v" line 31: Output port <TerminalCount> of the instance <YPositionCounter> is unconnected or connected to loadless signal.
     Found 10-bit comparator greater for signal <ActiveVideo[9]_ycount[9]_LessThan_6_o> created at line 27
     Found 10-bit comparator lessequal for signal <n0008> created at line 27
     Summary:
@@ -329,7 +329,7 @@ INFO:Xst:3210 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Projec
 Unit <vsyncModuleTemplate> synthesized.
 
 Synthesizing Unit <PlaySound>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\PlaySound.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\PlaySound.v".
         AddressBits = 5
         DataLength = 4
     Summary:
@@ -337,7 +337,7 @@ Synthesizing Unit <PlaySound>.
 Unit <PlaySound> synthesized.
 
 Synthesizing Unit <MusicSheetReader>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\SheetReader.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\SheetReader.v".
         DataLength = 4
         AddressBits = 5
     Found 1-bit register for signal <State>.
@@ -350,7 +350,7 @@ Synthesizing Unit <MusicSheetReader>.
 Unit <MusicSheetReader> synthesized.
 
 Synthesizing Unit <MusicScore>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\MusicScore.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\MusicScore.v".
         DataLength = 4
         AddressBits = 5
         MemorySize = 20
@@ -492,7 +492,7 @@ WARNING:Xst:653 - Signal <Times2<19>> is used but never assigned. This sourceles
 Unit <MusicScore> synthesized.
 
 Synthesizing Unit <PlayNote2>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\PlayNote2.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\PlayNote2.v".
     Found 1-bit register for signal <State>.
     Found 4-bit register for signal <ElapseSeconds>.
     Found 4-bit adder for signal <ElapseSeconds[3]_GND_29_o_add_7_OUT> created at line 26.
@@ -506,7 +506,7 @@ Synthesizing Unit <PlayNote2>.
 Unit <PlayNote2> synthesized.
 
 Synthesizing Unit <OneSecElapseTime>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\OneSecElapseTime.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\OneSecElapseTime.v".
         NumberOfBitsForSecond = 26
         OneSecondElapseTime = 20000000
     Found 1-bit register for signal <State>.
@@ -521,7 +521,7 @@ Synthesizing Unit <OneSecElapseTime>.
 Unit <OneSecElapseTime> synthesized.
 
 Synthesizing Unit <NoteMap>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\NoteMap.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\NoteMap.v".
         NoteC = 3'b001
         NoteD = 3'b010
         NoteE = 3'b100
@@ -530,14 +530,14 @@ Synthesizing Unit <NoteMap>.
 Unit <NoteMap> synthesized.
 
 Synthesizing Unit <ThreeMusicNotes>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ThreeMusicNotes.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\ThreeMusicNotes.v".
         NumberOfBits = 20
     Summary:
 	no macro.
 Unit <ThreeMusicNotes> synthesized.
 
 Synthesizing Unit <InputModule>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\InputModule.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\InputModule.v".
         NumberOfBits = 25
         MiddleC = 191112
         MiddleD = 170266
@@ -551,7 +551,7 @@ Synthesizing Unit <InputModule>.
 Unit <InputModule> synthesized.
 
 Synthesizing Unit <Waveform>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\WaveForm.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\WaveForm.v".
         NumberOfBits = 20
     Found 1-bit register for signal <Waveform>.
     Found 20-bit register for signal <WaveformCounter>.
@@ -565,7 +565,7 @@ Synthesizing Unit <Waveform>.
 Unit <Waveform> synthesized.
 
 Synthesizing Unit <game>.
-    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\Github\ECE333-Pong-LSW\VGAControllerPhase2\game.v".
     Register <Cause1> equivalent to <Play1> has been removed
     Found 3-bit register for signal <quadBr>.
     Found 1-bit register for signal <Play>.
@@ -1326,12 +1326,12 @@ Clock          |    6.134|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 10.66 secs
+Total REAL time to Xst completion: 26.00 secs
+Total CPU time to Xst completion: 26.44 secs
  
 --> 
 
-Total memory usage is 269768 kilobytes
+Total memory usage is 269512 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  289 (   0 filtered)

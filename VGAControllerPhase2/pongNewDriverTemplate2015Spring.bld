@@ -7,7 +7,8 @@ xc6slx16-csg324-3 pongNewDriverTemplate2015Spring.ngc
 pongNewDriverTemplate2015Spring.ngd
 
 Reading NGO file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final
-Project/VGAControllerPhase2/pongNewDriverTemplate2015Spring.ngc" ...
+Project/Github/ECE333-Pong-LSW/VGAControllerPhase2/pongNewDriverTemplate2015Spri
+ng.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -30,10 +31,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 166984 kilobytes
+Total memory usage is 167496 kilobytes
 
 Writing NGD file "pongNewDriverTemplate2015Spring.ngd" ...
-Total REAL time to NGDBUILD completion:  3 sec
-Total CPU time to NGDBUILD completion:   3 sec
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   8 sec
 
 Writing NGDBUILD log file "pongNewDriverTemplate2015Spring.bld"...

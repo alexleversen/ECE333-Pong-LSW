@@ -12,7 +12,7 @@
 //this is a template for students to complete
 //try to match the video_timer
 
-module pongNewDriverTemplate2015Spring(
+module PongwithSoundandFeatures(
     input Clock, Reset, rota, rotb,
     output [2:0] red,
     output [2:0] green,
@@ -28,6 +28,6 @@ parameter [9:0] NumberofPixels=10'd640, NumberofLines=10'd480, SystemClock=10'd1
 
 CRTcontrollerVer5 VGAcontroller(NumberofPixels, NumberofLines, SystemClock, hsync, vsync, xpos, ypos, Reset, Clock);
 PlaySound SoundModule(Play, Cause, Speaker, Reset, Clock);
-game game_inst(Clock, Reset, xpos, ypos, rota, rotb, red, green, blue, Play, Cause);
+game game_inst(Clock, Reset, xpos, ypos, rota, rotb, red, green, blue, Play, Cause, Score);
 					
 endmodule

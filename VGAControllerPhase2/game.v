@@ -28,7 +28,8 @@ module game(input clk25,
 				output [2:0] green,
 				output [1:0] blue,
 				output reg Play,
-				output reg [1:0] Cause);
+				output reg [1:0] Cause,
+				output [3:0] Score);
 		
 // paddle movement		
 reg [8:0] paddlePosition;
@@ -38,8 +39,8 @@ always @(posedge clk25) quadBr <= {quadBr[1:0], rotb};
 reg Play1, Play2, Cause1, Cause2;
 
 always @(posedge clk25)
-	begin Play = Play1 || Play2;
-			Cause = {Cause2, Cause1}; end
+	begin Play <= Play1 || Play2;
+			Cause <= {Cause2, Cause1}; end
 
 always @(posedge clk25)
 if(quadAr[2] ^ quadAr[1] ^ quadBr[2] ^ quadBr[1])
@@ -92,7 +93,7 @@ reg [5:0] missTimer;
 wire visible = (xpos < 640 && ypos < 480);
 wire top = (visible && ypos <= 10);
 wire bottom = (visible && ypos >= 476);
-wire left = (visible && xpos <= 10);
+wire left = (visible && xpos <= 8);
 wire right = (visible && xpos >= 636);
 wire border = (visible && (left || right || top));
 wire paddle = (xpos >= paddlePosition+4 && xpos <= paddlePosition+124 && ypos >= 440 && ypos <= 447);
@@ -113,13 +114,14 @@ always @(posedge clk25) begin
 		if (ball && (top || bottom || (paddle && ballYdir)))
 			bounceY <= 1;
 		if (ball && bottom)
-			begin missTimer <= 63; Play2 <= 1; Cause2 <= 1; end
+			begin missTimer <= 63; Play2 <= 1; Cause2 <= 1; end 
 		else
 			begin Play2 <= 0; Cause2 <= 0; end
 	end
 	else begin
 		//if (ballX == 0 && ballY == 0) begin // cheesy reset handling, assumes initial value of 0
 		  if(reset == 1 || (ballX == 0 && ballY == 0)) begin
+			Score <= 0;
 			ballXdir <= 1;
 			ballYdir <= 1;
 			bounceX <= 0;
