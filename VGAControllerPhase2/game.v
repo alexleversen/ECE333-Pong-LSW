@@ -39,8 +39,6 @@ always @(posedge clk25) quadBr <= {quadBr[1:0], rotb};
 reg Play1, Play2, Cause1, Cause2;
 
 always @(posedge clk25)
-	if(Reset == 0) Score <= 0;
-	else
 	begin Play <= Play1 || Play2;
 			Cause <= {Cause2, Cause1}; end
 
@@ -115,8 +113,6 @@ always @(posedge clk25) begin
 			bounceX <= 1;
 		if (ball && (top || bottom || (paddle && ballYdir)))
 			bounceY <= 1;
-		if (ball && (paddle && ballYdir))
-			Score <= Score + 1;
 		if (ball && bottom)
 			begin missTimer <= 63; Play2 <= 1; Cause2 <= 1; end 
 		else
