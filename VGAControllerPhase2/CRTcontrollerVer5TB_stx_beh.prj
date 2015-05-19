@@ -1,8 +1,0 @@
-verilog isim_temp "UniversalCounter10bitsV5.v"
-verilog isim_temp "ClockedNegativeOneShot.v"
-verilog isim_temp "vsyncModuleTemplate.v"
-verilog isim_temp "hsyncModuleVer5.v"
-verilog isim_temp "CRTClockTemplate.v"
-verilog isim_temp "CRTcontrollerVer5.v"
-verilog isim_temp "CRTcontrollerVer5TB.v"
-verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

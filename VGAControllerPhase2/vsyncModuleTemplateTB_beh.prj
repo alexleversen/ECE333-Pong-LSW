@@ -1,5 +1,0 @@
-verilog work "UniversalCounter10bitsV5.v"
-verilog work "ClockedNegativeOneShot.v"
-verilog work "vsyncModuleTemplate.v"
-verilog work "vsyncModuleTemplateTB.v"
-verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

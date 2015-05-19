@@ -1,8 +1,0 @@
-Release 14.7 Drc P.20131013 (nt64)
-Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
-
-Tue May 19 09:33:48 2015
-
-drc -z pongNewDriverTemplate2015Spring.ncd pongNewDriverTemplate2015Spring.pcf
-
-DRC detected 0 errors and 0 warnings.
