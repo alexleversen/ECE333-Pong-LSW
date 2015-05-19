@@ -28,19 +28,23 @@ module game(input clk25,
 				output [2:0] green,
 				output [1:0] blue,
 				output reg Play,
-				output reg Cause);
+				output reg [1:0] Cause);
 		
 // paddle movement		
 reg [8:0] paddlePosition;
 reg [2:0] quadAr, quadBr;
 always @(posedge clk25) quadAr <= {quadAr[1:0], rota};
 always @(posedge clk25) quadBr <= {quadBr[1:0], rotb};
+reg Play1, Play2, Cause1, Cause2;
+
+always @(posedge clk25)
+	begin Play = Play1 || Play2;
+			Cause = {Cause2, Cause1}; end
 
 always @(posedge clk25)
 if(quadAr[2] ^ quadAr[1] ^ quadBr[2] ^ quadBr[1])
 begin
-	Play <= 1; Cause = 0;
-	Play <= 1; Cause = 0;
+	Play1 <= 1; Cause1 <= 1;
 	if(quadAr[2] ^ quadBr[1]) begin
 		if(paddlePosition < 508)        // make sure the value doesn't overflow
 			paddlePosition <= paddlePosition + 4;
@@ -51,7 +55,8 @@ begin
 	end
 end
 else
-	Play <= 0;
+	begin Play1 <= 0; Cause1 <= 0; end
+
 		
 // ball movement	
 reg [9:0] ballX;
@@ -108,7 +113,9 @@ always @(posedge clk25) begin
 		if (ball && (top || bottom || (paddle && ballYdir)))
 			bounceY <= 1;
 		if (ball && bottom)
-			missTimer <= 63;
+			begin missTimer <= 63; Play2 <= 1; Cause2 <= 1; end
+		else
+			begin Play2 <= 0; Cause2 <= 0; end
 	end
 	else begin
 		//if (ballX == 0 && ballY == 0) begin // cheesy reset handling, assumes initial value of 0
@@ -126,7 +133,7 @@ always @(posedge clk25) begin
 			bounceX <= 0;
 			bounceY <= 0;
 			if (missTimer != 0)
-				missTimer <= missTimer - 1;
+				missTimer <= missTimer - 1; 
 		end
 	end
 end

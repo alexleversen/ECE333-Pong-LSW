@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: pongNewDriverTemplate2015Spring.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 ---- Target Options
 LUT Combining                      : Auto
 Reduce Control Sets                : Auto
-Add IO Buffers                     : NO
+Add IO Buffers                     : YES
 Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 16
 Register Duplication               : YES
@@ -99,56 +99,45 @@ DSP48 Utilization Ratio            : 100
 Auto BRAM Packing                  : NO
 Slice Utilization Ratio Delta      : 5
 
----- Other Options
-Cores Search Directories           : {"ipcore_dir"  }
-
 =========================================================================
 
 
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ipcore_dir\Clock50MHz.v" into library work
-Parsing module <Clock50MHz>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\WaveForm.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\WaveForm.v" into library work
 Parsing module <Waveform>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\UniversalCounter10bitsV5.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\UniversalCounter10bitsV5.v" into library work
 Parsing module <UniversalCounter10bitsV5>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\OneSecElapseTime.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\OneSecElapseTime.v" into library work
 Parsing module <OneSecElapseTime>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\NoteMap.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\NoteMap.v" into library work
 Parsing module <NoteMap>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\InputModule.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\InputModule.v" into library work
 Parsing module <InputModule>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\DelayLoop.v" into library work
-Parsing module <DelayLoop>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ClockedNegativeOneShot.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ClockedNegativeOneShot.v" into library work
 Parsing module <ClockedNegativeOneShot>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\vsyncModuleTemplate.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\vsyncModuleTemplate.v" into library work
 Parsing module <vsyncModuleTemplate>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ThreeMusicNotes.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ThreeMusicNotes.v" into library work
 Parsing module <ThreeMusicNotes>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\SheetReader.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\SheetReader.v" into library work
 Parsing module <MusicSheetReader>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\PlayNote2.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\PlayNote2.v" into library work
 Parsing module <PlayNote2>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\MusicScore.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\MusicScore.v" into library work
 Parsing module <MusicScore>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\hsyncModuleVer5.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\hsyncModuleVer5.v" into library work
 Parsing module <hsyncModuleVer5>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\debouncer.v" into library work
-Parsing module <Debouncer>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\CRTClockTemplate.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTClockTemplate.v" into library work
 Parsing module <CRTClockTemplate>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ClockedOneShot.v" into library work
-Parsing module <ClockedOneShot>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\PlaySound.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\PlaySound.v" into library work
 Parsing module <PlaySound>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" into library work
 Parsing module <game>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\CRTcontrollerVer5.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTcontrollerVer5.v" into library work
 Parsing module <CRTcontrollerVer5>.
-Analyzing Verilog file "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" into library work
+Analyzing Verilog file "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" into library work
 Parsing module <pongNewDriverTemplate2015Spring>.
 
 =========================================================================
@@ -160,7 +149,7 @@ Elaborating module <pongNewDriverTemplate2015Spring>.
 Elaborating module <CRTcontrollerVer5>.
 
 Elaborating module <CRTClockTemplate>.
-WARNING:HDLCompiler:413 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\CRTClockTemplate.v" Line 26: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTClockTemplate.v" Line 26: Result of 11-bit expression is truncated to fit in 10-bit target.
 
 Elaborating module <hsyncModuleVer5>.
 
@@ -172,25 +161,11 @@ Elaborating module <vsyncModuleTemplate>.
 
 Elaborating module <PlaySound>.
 
-Elaborating module <Clock50MHz>.
-
-Elaborating module <IBUFG>.
-
-Elaborating module <DCM_SP(CLKDV_DIVIDE=2.0,CLKFX_DIVIDE=1,CLKFX_MULTIPLY=4,CLKIN_DIVIDE_BY_2="FALSE",CLKIN_PERIOD=10.0,CLKOUT_PHASE_SHIFT="NONE",CLK_FEEDBACK="1X",DESKEW_ADJUST="SYSTEM_SYNCHRONOUS",PHASE_SHIFT=0,STARTUP_WAIT="FALSE")>.
-WARNING:HDLCompiler:1127 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ipcore_dir\Clock50MHz.v" Line 125: Assignment to locked_int ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ipcore_dir\Clock50MHz.v" Line 126: Assignment to status_int ignored, since the identifier is never used
-
-Elaborating module <BUFG>.
-
-Elaborating module <Debouncer>.
-
-Elaborating module <DelayLoop>.
-
-Elaborating module <ClockedOneShot>.
-
 Elaborating module <MusicSheetReader>.
 
 Elaborating module <MusicScore>.
+WARNING:HDLCompiler:634 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\MusicScore.v" Line 14: Net <Keys2[2][3]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\MusicScore.v" Line 16: Net <Times2[2][3]> does not have a driver.
 
 Elaborating module <PlayNote2>.
 
@@ -201,35 +176,34 @@ Elaborating module <NoteMap>.
 Elaborating module <ThreeMusicNotes>.
 
 Elaborating module <InputModule>.
+WARNING:HDLCompiler:189 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ThreeMusicNotes.v" Line 17: Size mismatch in connection of port <NoteC>. Formal port size is 25-bit while actual signal size is 20-bit.
 
 Elaborating module <Waveform>.
-WARNING:HDLCompiler:1127 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" Line 29: Assignment to Speaker ignored, since the identifier is never used
 
 Elaborating module <game>.
-WARNING:HDLCompiler:413 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 46: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 50: Result of 32-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 73: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 75: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 78: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 80: Result of 32-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 129: Result of 32-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 50: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 54: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 78: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 80: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 83: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 85: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v" Line 136: Result of 32-bit expression is truncated to fit in 6-bit target.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <pongNewDriverTemplate2015Spring>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v".
         NumberofPixels = 10'b1010000000
         NumberofLines = 10'b0111100000
         SystemClock = 10'b0001100100
-INFO:Xst:3210 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" line 29: Output port <Speaker> of the instance <SoundModule> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <pongNewDriverTemplate2015Spring> synthesized.
 
 Synthesizing Unit <CRTcontrollerVer5>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\CRTcontrollerVer5.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTcontrollerVer5.v".
         ResolutionSize = 10
         SystemClockSize = 10
         hSynchPulse = 10'b0001011111
@@ -243,7 +217,7 @@ Synthesizing Unit <CRTcontrollerVer5>.
 Unit <CRTcontrollerVer5> synthesized.
 
 Synthesizing Unit <CRTClockTemplate>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\CRTClockTemplate.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\CRTClockTemplate.v".
         SystemClockSize = 10
         PixelClock = 25
     Found 1-bit register for signal <CRTclock>.
@@ -285,9 +259,9 @@ Synthesizing Unit <div_10u_5u>.
 Unit <div_10u_5u> synthesized.
 
 Synthesizing Unit <hsyncModuleVer5>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\hsyncModuleVer5.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\hsyncModuleVer5.v".
         xresolution = 10
-INFO:Xst:3210 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\hsyncModuleVer5.v" line 35: Output port <TerminalCount> of the instance <XPositionCounter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\hsyncModuleVer5.v" line 35: Output port <TerminalCount> of the instance <XPositionCounter> is unconnected or connected to loadless signal.
     Found 10-bit comparator lessequal for signal <n0004> created at line 28
     Found 10-bit comparator lessequal for signal <n0007> created at line 28
     Summary:
@@ -295,7 +269,7 @@ INFO:Xst:3210 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-P
 Unit <hsyncModuleVer5> synthesized.
 
 Synthesizing Unit <ClockedNegativeOneShot>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ClockedNegativeOneShot.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ClockedNegativeOneShot.v".
         State0 = 0
         State1 = 1
         State2 = 2
@@ -319,7 +293,7 @@ Synthesizing Unit <ClockedNegativeOneShot>.
 Unit <ClockedNegativeOneShot> synthesized.
 
 Synthesizing Unit <UniversalCounter10bitsV5>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\UniversalCounter10bitsV5.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\UniversalCounter10bitsV5.v".
         length = 10
     Found 1-bit register for signal <Q<9>>.
     Found 1-bit register for signal <Q<8>>.
@@ -345,9 +319,9 @@ Synthesizing Unit <UniversalCounter10bitsV5>.
 Unit <UniversalCounter10bitsV5> synthesized.
 
 Synthesizing Unit <vsyncModuleTemplate>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\vsyncModuleTemplate.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\vsyncModuleTemplate.v".
         yresolution = 10
-INFO:Xst:3210 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\vsyncModuleTemplate.v" line 31: Output port <TerminalCount> of the instance <YPositionCounter> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\vsyncModuleTemplate.v" line 31: Output port <TerminalCount> of the instance <YPositionCounter> is unconnected or connected to loadless signal.
     Found 10-bit comparator greater for signal <ActiveVideo[9]_ycount[9]_LessThan_6_o> created at line 27
     Found 10-bit comparator lessequal for signal <n0008> created at line 27
     Summary:
@@ -355,88 +329,20 @@ INFO:Xst:3210 - "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-P
 Unit <vsyncModuleTemplate> synthesized.
 
 Synthesizing Unit <PlaySound>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\PlaySound.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\PlaySound.v".
         AddressBits = 5
         DataLength = 4
     Summary:
 	no macro.
 Unit <PlaySound> synthesized.
 
-Synthesizing Unit <Clock50MHz>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ipcore_dir\Clock50MHz.v".
-    Summary:
-	no macro.
-Unit <Clock50MHz> synthesized.
-
-Synthesizing Unit <Debouncer>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\debouncer.v".
-        State0 = 0
-        State1 = 1
-        State2 = 2
-        State3 = 3
-    Found 2-bit register for signal <State>.
-    Found finite state machine <FSM_1> for signal <State>.
-    -----------------------------------------------------------------------
-    | States             | 4                                              |
-    | Transitions        | 8                                              |
-    | Inputs             | 2                                              |
-    | Outputs            | 2                                              |
-    | Clock              | CLOCK (rising_edge)                            |
-    | Reset              | Reset (positive)                               |
-    | Reset type         | synchronous                                    |
-    | Reset State        | 00                                             |
-    | Encoding           | auto                                           |
-    | Implementation     | LUT                                            |
-    -----------------------------------------------------------------------
-    Summary:
-	inferred   1 Finite State Machine(s).
-Unit <Debouncer> synthesized.
-
-Synthesizing Unit <DelayLoop>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\DelayLoop.v".
-        Divider = 100000
-        NumberOfBits = 27
-    Found 27-bit register for signal <count>.
-    Found 27-bit adder for signal <count[26]_GND_15_o_add_4_OUT> created at line 21.
-    Found 27-bit comparator lessequal for signal <n0002> created at line 20
-    Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred  27 D-type flip-flop(s).
-	inferred   1 Comparator(s).
-	inferred   1 Multiplexer(s).
-Unit <DelayLoop> synthesized.
-
-Synthesizing Unit <ClockedOneShot>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ClockedOneShot.v".
-        State0 = 0
-        State1 = 1
-        State2 = 2
-        State3 = 3
-    Found 2-bit register for signal <State>.
-    Found finite state machine <FSM_2> for signal <State>.
-    -----------------------------------------------------------------------
-    | States             | 3                                              |
-    | Transitions        | 6                                              |
-    | Inputs             | 1                                              |
-    | Outputs            | 1                                              |
-    | Clock              | CLOCK (rising_edge)                            |
-    | Reset              | Reset (positive)                               |
-    | Reset type         | synchronous                                    |
-    | Reset State        | 00                                             |
-    | Encoding           | auto                                           |
-    | Implementation     | LUT                                            |
-    -----------------------------------------------------------------------
-    Summary:
-	inferred   1 Finite State Machine(s).
-Unit <ClockedOneShot> synthesized.
-
 Synthesizing Unit <MusicSheetReader>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\SheetReader.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\SheetReader.v".
         DataLength = 4
         AddressBits = 5
     Found 1-bit register for signal <State>.
     Found 5-bit register for signal <CurrentAddress>.
-    Found 5-bit adder for signal <CurrentAddress[4]_GND_17_o_add_7_OUT> created at line 31.
+    Found 5-bit adder for signal <CurrentAddress[4]_GND_10_o_add_7_OUT> created at line 31.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred   6 D-type flip-flop(s).
@@ -444,135 +350,152 @@ Synthesizing Unit <MusicSheetReader>.
 Unit <MusicSheetReader> synthesized.
 
 Synthesizing Unit <MusicScore>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\MusicScore.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\MusicScore.v".
         DataLength = 4
         AddressBits = 5
         MemorySize = 20
-    Found 1-bit register for signal <Times<0><1>>.
-    Found 1-bit register for signal <Keys<0><0>>.
-    Found 1-bit register for signal <Keys<0><2>>.
-    Found 1-bit register for signal <Keys<0><1>>.
-    Found 1-bit register for signal <Keys<1><3>>.
-    Found 1-bit register for signal <Keys<1><2>>.
-    Found 1-bit register for signal <Keys<1><0>>.
-    Found 1-bit register for signal <Times<0><3>>.
-    Found 1-bit register for signal <Times<0><2>>.
-    Found 1-bit register for signal <Times<0><0>>.
-    Found 1-bit register for signal <Times<1><3>>.
-    Found 1-bit register for signal <Times<1><2>>.
-    Found 1-bit register for signal <Times<1><1>>.
-    Found 1-bit register for signal <Keys<0><3>>.
+WARNING:Xst:653 - Signal <Keys2<2>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<3>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<4>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<5>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<7>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<8>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<9>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<10>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<11>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<12>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<13>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<14>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<15>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<16>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<17>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<18>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Keys2<19>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<2>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<3>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<4>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<5>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<7>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<8>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<9>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<10>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<11>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<12>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<13>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<14>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<15>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<16>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<17>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<18>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Times2<19>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <Keys1<0><2>>.
+    Found 1-bit register for signal <Keys1<0><1>>.
+    Found 1-bit register for signal <Keys1<1><3>>.
+    Found 1-bit register for signal <Keys1<1><2>>.
+    Found 1-bit register for signal <Keys1<1><1>>.
+    Found 1-bit register for signal <Keys1<1><0>>.
+    Found 1-bit register for signal <Times1<0><3>>.
+    Found 1-bit register for signal <Times1<0><2>>.
+    Found 1-bit register for signal <Times1<0><1>>.
+    Found 1-bit register for signal <Times1<1><3>>.
+    Found 1-bit register for signal <Times1<1><2>>.
+    Found 1-bit register for signal <Times1<1><1>>.
+    Found 1-bit register for signal <Times1<1><0>>.
+    Found 1-bit register for signal <Keys1<0><3>>.
+    Found 1-bit register for signal <Times1<0><0>>.
+    Found 1-bit register for signal <Keys1<0><0>>.
     Found 4-bit register for signal <KeyOutput>.
     Found 4-bit register for signal <TimeOutput>.
-    Found 1-bit register for signal <Keys<8><2>>.
-    Found 1-bit register for signal <Keys<8><0>>.
-    Found 1-bit register for signal <Keys<9><2>>.
-    Found 1-bit register for signal <Keys<10><2>>.
-    Found 1-bit register for signal <Keys<11><3>>.
-    Found 1-bit register for signal <Keys<11><2>>.
-    Found 1-bit register for signal <Keys<11><0>>.
-    Found 1-bit register for signal <Keys<12><3>>.
-    Found 1-bit register for signal <Keys<13><2>>.
-    Found 1-bit register for signal <Keys<13><1>>.
-    Found 1-bit register for signal <Keys<13><0>>.
-    Found 1-bit register for signal <Keys<14><3>>.
-    Found 1-bit register for signal <Keys<14><2>>.
-    Found 1-bit register for signal <Keys<14><1>>.
-    Found 1-bit register for signal <Keys<15><0>>.
-    Found 1-bit register for signal <Keys<16><2>>.
-    Found 1-bit register for signal <Keys<16><0>>.
-    Found 1-bit register for signal <Keys<17><0>>.
-    Found 1-bit register for signal <Keys<18><2>>.
-    Found 1-bit register for signal <Keys<19><3>>.
-    Found 1-bit register for signal <Keys<19><2>>.
-    Found 1-bit register for signal <Keys<19><0>>.
-    Found 1-bit register for signal <Times<8><2>>.
-    Found 1-bit register for signal <Times<8><0>>.
-    Found 1-bit register for signal <Times<10><2>>.
-    Found 1-bit register for signal <Times<10><0>>.
-    Found 1-bit register for signal <Times<11><3>>.
-    Found 1-bit register for signal <Times<11><2>>.
-    Found 1-bit register for signal <Times<11><0>>.
-    Found 1-bit register for signal <Times<12><2>>.
-    Found 1-bit register for signal <Times<12><1>>.
-    Found 1-bit register for signal <Times<12><0>>.
-    Found 1-bit register for signal <Times<13><3>>.
-    Found 1-bit register for signal <Times<13><0>>.
-    Found 1-bit register for signal <Times<14><0>>.
-    Found 1-bit register for signal <Times<15><3>>.
-    Found 1-bit register for signal <Times<15><2>>.
-    Found 1-bit register for signal <Times<16><2>>.
-    Found 1-bit register for signal <Times<16><0>>.
-    Found 1-bit register for signal <Times<17><3>>.
-    Found 1-bit register for signal <Times<17><2>>.
-    Found 1-bit register for signal <Times<17><1>>.
-    Found 1-bit register for signal <Times<18><3>>.
-    Found 1-bit register for signal <Times<18><2>>.
-    Found 1-bit register for signal <Times<18><1>>.
-    Found 1-bit register for signal <Times<18><0>>.
-    Found 1-bit register for signal <Times<19><0>>.
-    Found 1-bit register for signal <Keys<1>_1>.
-    Found 1-bit register for signal <Keys<2>_3>.
-    Found 1-bit register for signal <Keys<2>_2>.
-    Found 1-bit register for signal <Keys<2>_1>.
-    Found 1-bit register for signal <Keys<2>_0>.
-    Found 1-bit register for signal <Keys<3>_3>.
-    Found 1-bit register for signal <Keys<3>_2>.
-    Found 1-bit register for signal <Keys<3>_1>.
-    Found 1-bit register for signal <Keys<3>_0>.
-    Found 1-bit register for signal <Keys<4>_3>.
-    Found 1-bit register for signal <Keys<4>_2>.
-    Found 1-bit register for signal <Keys<4>_1>.
-    Found 1-bit register for signal <Keys<4>_0>.
-    Found 1-bit register for signal <Keys<5>_3>.
-    Found 1-bit register for signal <Keys<5>_2>.
-    Found 1-bit register for signal <Keys<5>_1>.
-    Found 1-bit register for signal <Keys<5>_0>.
-    Found 1-bit register for signal <Keys<6>_3>.
-    Found 1-bit register for signal <Keys<6>_2>.
-    Found 1-bit register for signal <Keys<6>_1>.
-    Found 1-bit register for signal <Keys<6>_0>.
-    Found 1-bit register for signal <Keys<7>_3>.
-    Found 1-bit register for signal <Keys<7>_2>.
-    Found 1-bit register for signal <Keys<7>_1>.
-    Found 1-bit register for signal <Keys<7>_0>.
-    Found 1-bit register for signal <Times<1>_0>.
-    Found 1-bit register for signal <Times<2>_3>.
-    Found 1-bit register for signal <Times<2>_2>.
-    Found 1-bit register for signal <Times<2>_1>.
-    Found 1-bit register for signal <Times<2>_0>.
-    Found 1-bit register for signal <Times<3>_3>.
-    Found 1-bit register for signal <Times<3>_2>.
-    Found 1-bit register for signal <Times<3>_1>.
-    Found 1-bit register for signal <Times<3>_0>.
-    Found 1-bit register for signal <Times<4>_3>.
-    Found 1-bit register for signal <Times<4>_2>.
-    Found 1-bit register for signal <Times<4>_1>.
-    Found 1-bit register for signal <Times<4>_0>.
-    Found 1-bit register for signal <Times<5>_3>.
-    Found 1-bit register for signal <Times<5>_2>.
-    Found 1-bit register for signal <Times<5>_1>.
-    Found 1-bit register for signal <Times<5>_0>.
-    Found 1-bit register for signal <Times<6>_3>.
-    Found 1-bit register for signal <Times<6>_2>.
-    Found 1-bit register for signal <Times<6>_1>.
-    Found 1-bit register for signal <Times<6>_0>.
-    Found 1-bit register for signal <Times<7>_3>.
-    Found 1-bit register for signal <Times<7>_2>.
-    Found 1-bit register for signal <Times<7>_1>.
-    Found 1-bit register for signal <Times<7>_0>.
-    Found 4-bit 20-to-1 multiplexer for signal <KeyOutput[3]_Address[4]_mux_47_OUT> created at line 34.
-    Found 4-bit 20-to-1 multiplexer for signal <TimeOutput[3]_Address[4]_mux_48_OUT> created at line 34.
+    Found 1-bit register for signal <Keys1<2><3>>.
+    Found 1-bit register for signal <Keys1<2><0>>.
+    Found 1-bit register for signal <Keys1<3><2>>.
+    Found 1-bit register for signal <Keys1<3><1>>.
+    Found 1-bit register for signal <Keys1<4><3>>.
+    Found 1-bit register for signal <Keys1<4><2>>.
+    Found 1-bit register for signal <Keys1<4><0>>.
+    Found 1-bit register for signal <Keys1<5><3>>.
+    Found 1-bit register for signal <Keys1<5><2>>.
+    Found 1-bit register for signal <Keys1<5><0>>.
+    Found 1-bit register for signal <Keys1<7><0>>.
+    Found 1-bit register for signal <Keys1<8><3>>.
+    Found 1-bit register for signal <Keys1<8><0>>.
+    Found 1-bit register for signal <Keys1<9><3>>.
+    Found 1-bit register for signal <Keys1<9><2>>.
+    Found 1-bit register for signal <Keys1<9><0>>.
+    Found 1-bit register for signal <Keys1<10><3>>.
+    Found 1-bit register for signal <Keys1<10><1>>.
+    Found 1-bit register for signal <Keys1<11><3>>.
+    Found 1-bit register for signal <Keys1<11><2>>.
+    Found 1-bit register for signal <Keys1<11><1>>.
+    Found 1-bit register for signal <Keys1<12><1>>.
+    Found 1-bit register for signal <Keys1<12><0>>.
+    Found 1-bit register for signal <Keys1<13><3>>.
+    Found 1-bit register for signal <Keys1<13><2>>.
+    Found 1-bit register for signal <Keys1<13><1>>.
+    Found 1-bit register for signal <Keys1<13><0>>.
+    Found 1-bit register for signal <Keys1<14><2>>.
+    Found 1-bit register for signal <Keys1<14><0>>.
+    Found 1-bit register for signal <Keys1<15><3>>.
+    Found 1-bit register for signal <Keys1<15><2>>.
+    Found 1-bit register for signal <Keys1<15><1>>.
+    Found 1-bit register for signal <Keys1<17><1>>.
+    Found 1-bit register for signal <Keys1<17><0>>.
+    Found 1-bit register for signal <Keys1<18><3>>.
+    Found 1-bit register for signal <Keys1<18><1>>.
+    Found 1-bit register for signal <Keys1<18><0>>.
+    Found 1-bit register for signal <Keys1<19><3>>.
+    Found 1-bit register for signal <Keys1<19><1>>.
+    Found 1-bit register for signal <Times1<3><3>>.
+    Found 1-bit register for signal <Times1<3><1>>.
+    Found 1-bit register for signal <Times1<3><0>>.
+    Found 1-bit register for signal <Times1<4><3>>.
+    Found 1-bit register for signal <Times1<4><2>>.
+    Found 1-bit register for signal <Times1<4><1>>.
+    Found 1-bit register for signal <Times1<5><3>>.
+    Found 1-bit register for signal <Times1<6><2>>.
+    Found 1-bit register for signal <Times1<6><1>>.
+    Found 1-bit register for signal <Times1<7><0>>.
+    Found 1-bit register for signal <Times1<8><3>>.
+    Found 1-bit register for signal <Times1<8><2>>.
+    Found 1-bit register for signal <Times1<8><1>>.
+    Found 1-bit register for signal <Times1<8><0>>.
+    Found 1-bit register for signal <Times1<9><3>>.
+    Found 1-bit register for signal <Times1<9><2>>.
+    Found 1-bit register for signal <Times1<9><1>>.
+    Found 1-bit register for signal <Times1<10><2>>.
+    Found 1-bit register for signal <Times1<10><0>>.
+    Found 1-bit register for signal <Times1<11><2>>.
+    Found 1-bit register for signal <Times1<11><1>>.
+    Found 1-bit register for signal <Times1<11><0>>.
+    Found 1-bit register for signal <Times1<12><2>>.
+    Found 1-bit register for signal <Times1<12><1>>.
+    Found 1-bit register for signal <Times1<13><3>>.
+    Found 1-bit register for signal <Times1<13><2>>.
+    Found 1-bit register for signal <Times1<14><3>>.
+    Found 1-bit register for signal <Times1<14><1>>.
+    Found 1-bit register for signal <Times1<16><3>>.
+    Found 1-bit register for signal <Times1<16><2>>.
+    Found 1-bit register for signal <Times1<16><0>>.
+    Found 1-bit register for signal <Times1<17><1>>.
+    Found 1-bit register for signal <Times1<18><2>>.
+    Found 1-bit register for signal <Times1<19><3>>.
+    Found 1-bit register for signal <Times1<19><2>>.
+    Found 1-bit register for signal <Times1<19><1>>.
+    Found 1-bit register for signal <Times1<19><0>>.
+    Found 4-bit 20-to-1 multiplexer for signal <Address[4]_X_10_o_wide_mux_3_OUT> created at line 30.
+    Found 4-bit 20-to-1 multiplexer for signal <Address[4]_X_10_o_wide_mux_4_OUT> created at line 30.
     Summary:
-	inferred 119 D-type flip-flop(s).
-	inferred  50 Multiplexer(s).
+	inferred 100 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
 Unit <MusicScore> synthesized.
 
 Synthesizing Unit <PlayNote2>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\PlayNote2.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\PlayNote2.v".
     Found 1-bit register for signal <State>.
     Found 4-bit register for signal <ElapseSeconds>.
-    Found 4-bit adder for signal <ElapseSeconds[3]_GND_20_o_add_7_OUT> created at line 26.
+    Found 4-bit adder for signal <ElapseSeconds[3]_GND_29_o_add_7_OUT> created at line 26.
     Found 4-bit comparator lessequal for signal <n0014> created at line 34
     Found 4-bit comparator equal for signal <Over> created at line 35
     Summary:
@@ -583,12 +506,12 @@ Synthesizing Unit <PlayNote2>.
 Unit <PlayNote2> synthesized.
 
 Synthesizing Unit <OneSecElapseTime>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\OneSecElapseTime.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\OneSecElapseTime.v".
         NumberOfBitsForSecond = 26
         OneSecondElapseTime = 20000000
     Found 1-bit register for signal <State>.
     Found 26-bit register for signal <SecondsCounter>.
-    Found 26-bit adder for signal <SecondsCounter[25]_GND_21_o_add_8_OUT> created at line 29.
+    Found 26-bit adder for signal <SecondsCounter[25]_GND_30_o_add_8_OUT> created at line 29.
     Found 26-bit comparator lessequal for signal <n0009> created at line 28
     Summary:
 	inferred   1 Adder/Subtractor(s).
@@ -598,7 +521,7 @@ Synthesizing Unit <OneSecElapseTime>.
 Unit <OneSecElapseTime> synthesized.
 
 Synthesizing Unit <NoteMap>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\NoteMap.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\NoteMap.v".
         NoteC = 3'b001
         NoteD = 3'b010
         NoteE = 3'b100
@@ -607,32 +530,32 @@ Synthesizing Unit <NoteMap>.
 Unit <NoteMap> synthesized.
 
 Synthesizing Unit <ThreeMusicNotes>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ThreeMusicNotes.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\ThreeMusicNotes.v".
         NumberOfBits = 20
     Summary:
 	no macro.
 Unit <ThreeMusicNotes> synthesized.
 
 Synthesizing Unit <InputModule>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\InputModule.v".
-        NumberOfBits = 20
-        MiddleC = 95556
-        MiddleD = 85133
-        MiddleE = 75843
-        OutRange = 20'b00000000000000000000
-    Found 20-bit register for signal <NoteD>.
-    Found 20-bit register for signal <NoteE>.
-    Found 20-bit register for signal <NoteC>.
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\InputModule.v".
+        NumberOfBits = 25
+        MiddleC = 191112
+        MiddleD = 170266
+        MiddleE = 151686
+        OutRange = 25'b0000000000000000000000000
+    Found 25-bit register for signal <NoteD>.
+    Found 25-bit register for signal <NoteE>.
+    Found 25-bit register for signal <NoteC>.
     Summary:
-	inferred  60 D-type flip-flop(s).
+	inferred  75 D-type flip-flop(s).
 Unit <InputModule> synthesized.
 
 Synthesizing Unit <Waveform>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\WaveForm.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\WaveForm.v".
         NumberOfBits = 20
     Found 1-bit register for signal <Waveform>.
     Found 20-bit register for signal <WaveformCounter>.
-    Found 20-bit adder for signal <WaveformCounter[19]_GND_25_o_add_4_OUT> created at line 21.
+    Found 20-bit adder for signal <WaveformCounter[19]_GND_34_o_add_4_OUT> created at line 21.
     Found 20-bit comparator greater for signal <n0002> created at line 19
     Summary:
 	inferred   1 Adder/Subtractor(s).
@@ -642,48 +565,52 @@ Synthesizing Unit <Waveform>.
 Unit <Waveform> synthesized.
 
 Synthesizing Unit <game>.
-    Related source file is "C:\Users\leversad\Documents\Courses\2015 Spring\ECE333\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v".
+    Related source file is "C:\Users\stollcj.001\Documents\Spring 2014\ECE 333\Final Project\VGAControllerPhase2\game.v".
+    Register <Cause1> equivalent to <Play1> has been removed
     Found 3-bit register for signal <quadBr>.
     Found 1-bit register for signal <Play>.
-    Found 1-bit register for signal <Cause>.
+    Found 2-bit register for signal <Cause>.
+    Found 1-bit register for signal <Play1>.
     Found 9-bit register for signal <paddlePosition>.
     Found 10-bit register for signal <ballX>.
     Found 9-bit register for signal <ballY>.
     Found 1-bit register for signal <bounceX>.
     Found 1-bit register for signal <bounceY>.
     Found 6-bit register for signal <missTimer>.
+    Found 1-bit register for signal <Play2>.
+    Found 1-bit register for signal <Cause2>.
     Found 1-bit register for signal <ballXdir>.
     Found 1-bit register for signal <ballYdir>.
     Found 3-bit register for signal <quadAr>.
-    Found 10-bit adder for signal <ballX[9]_GND_26_o_add_20_OUT> created at line 73.
-    Found 9-bit adder for signal <ballY[8]_GND_26_o_add_23_OUT> created at line 78.
-    Found 10-bit adder for signal <n0169> created at line 93.
-    Found 10-bit adder for signal <n0170> created at line 93.
-    Found 11-bit adder for signal <n0172> created at line 94.
-    Found 10-bit adder for signal <n0174> created at line 94.
-    Found 9-bit subtractor for signal <GND_26_o_GND_26_o_sub_10_OUT<8:0>> created at line 50.
-    Found 10-bit subtractor for signal <GND_26_o_GND_26_o_sub_22_OUT<9:0>> created at line 75.
-    Found 9-bit subtractor for signal <GND_26_o_GND_26_o_sub_25_OUT<8:0>> created at line 80.
-    Found 6-bit subtractor for signal <GND_26_o_GND_26_o_sub_58_OUT<5:0>> created at line 129.
-    Found 9-bit comparator lessequal for signal <paddlePosition[8]_PWR_27_o_LessThan_6_o> created at line 45
-    Found 9-bit comparator lessequal for signal <GND_26_o_paddlePosition[8]_LessThan_9_o> created at line 49
-    Found 10-bit comparator greater for signal <xpos[9]_PWR_27_o_LessThan_33_o> created at line 87
-    Found 10-bit comparator greater for signal <ypos[9]_GND_26_o_LessThan_34_o> created at line 87
-    Found 10-bit comparator lessequal for signal <n0042> created at line 88
-    Found 10-bit comparator lessequal for signal <n0045> created at line 89
-    Found 10-bit comparator lessequal for signal <n0048> created at line 90
-    Found 10-bit comparator lessequal for signal <n0051> created at line 91
-    Found 10-bit comparator lessequal for signal <n0058> created at line 93
-    Found 10-bit comparator lessequal for signal <n0061> created at line 93
-    Found 10-bit comparator lessequal for signal <n0064> created at line 93
-    Found 10-bit comparator lessequal for signal <n0067> created at line 93
-    Found 10-bit comparator lessequal for signal <n0070> created at line 94
-    Found 11-bit comparator lessequal for signal <n0073> created at line 94
-    Found 10-bit comparator lessequal for signal <n0076> created at line 94
-    Found 10-bit comparator lessequal for signal <n0080> created at line 94
+    Found 10-bit adder for signal <ballX[9]_GND_35_o_add_22_OUT> created at line 78.
+    Found 9-bit adder for signal <ballY[8]_GND_35_o_add_25_OUT> created at line 83.
+    Found 10-bit adder for signal <n0177> created at line 98.
+    Found 10-bit adder for signal <n0178> created at line 98.
+    Found 11-bit adder for signal <n0180> created at line 99.
+    Found 10-bit adder for signal <n0182> created at line 99.
+    Found 9-bit subtractor for signal <GND_35_o_GND_35_o_sub_12_OUT<8:0>> created at line 54.
+    Found 10-bit subtractor for signal <GND_35_o_GND_35_o_sub_24_OUT<9:0>> created at line 80.
+    Found 9-bit subtractor for signal <GND_35_o_GND_35_o_sub_27_OUT<8:0>> created at line 85.
+    Found 6-bit subtractor for signal <GND_35_o_GND_35_o_sub_60_OUT<5:0>> created at line 136.
+    Found 9-bit comparator lessequal for signal <paddlePosition[8]_PWR_20_o_LessThan_8_o> created at line 49
+    Found 9-bit comparator lessequal for signal <GND_35_o_paddlePosition[8]_LessThan_11_o> created at line 53
+    Found 10-bit comparator greater for signal <xpos[9]_PWR_20_o_LessThan_35_o> created at line 92
+    Found 10-bit comparator greater for signal <ypos[9]_GND_35_o_LessThan_36_o> created at line 92
+    Found 10-bit comparator lessequal for signal <n0044> created at line 93
+    Found 10-bit comparator lessequal for signal <n0047> created at line 94
+    Found 10-bit comparator lessequal for signal <n0050> created at line 95
+    Found 10-bit comparator lessequal for signal <n0053> created at line 96
+    Found 10-bit comparator lessequal for signal <n0060> created at line 98
+    Found 10-bit comparator lessequal for signal <n0063> created at line 98
+    Found 10-bit comparator lessequal for signal <n0066> created at line 98
+    Found 10-bit comparator lessequal for signal <n0069> created at line 98
+    Found 10-bit comparator lessequal for signal <n0072> created at line 99
+    Found 11-bit comparator lessequal for signal <n0075> created at line 99
+    Found 10-bit comparator lessequal for signal <n0078> created at line 99
+    Found 10-bit comparator lessequal for signal <n0082> created at line 99
     Summary:
 	inferred   8 Adder/Subtractor(s).
-	inferred  46 D-type flip-flop(s).
+	inferred  50 D-type flip-flop(s).
 	inferred  16 Comparator(s).
 	inferred   3 Multiplexer(s).
 Unit <game> synthesized.
@@ -692,7 +619,7 @@ Unit <game> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 28
+# Adders/Subtractors                                   : 27
  10-bit adder                                          : 9
  10-bit addsub                                         : 3
  10-bit subtractor                                     : 1
@@ -702,24 +629,24 @@ Macro Statistics
  14-bit adder                                          : 1
  20-bit adder                                          : 3
  26-bit adder                                          : 1
- 27-bit adder                                          : 1
  4-bit adder                                           : 1
  5-bit adder                                           : 1
  6-bit subtractor                                      : 1
  9-bit addsub                                          : 1
  9-bit subtractor                                      : 1
-# Registers                                            : 160
- 1-bit register                                        : 140
+# Registers                                            : 137
+ 1-bit register                                        : 115
  10-bit register                                       : 2
- 20-bit register                                       : 6
+ 2-bit register                                        : 1
+ 20-bit register                                       : 3
+ 25-bit register                                       : 3
  26-bit register                                       : 1
- 27-bit register                                       : 1
  3-bit register                                        : 2
- 4-bit register                                        : 4
+ 4-bit register                                        : 6
  5-bit register                                        : 1
  6-bit register                                        : 1
  9-bit register                                        : 2
-# Comparators                                          : 42
+# Comparators                                          : 41
  10-bit comparator equal                               : 2
  10-bit comparator greater                             : 3
  10-bit comparator lessequal                           : 22
@@ -729,24 +656,22 @@ Macro Statistics
  14-bit comparator lessequal                           : 1
  20-bit comparator greater                             : 3
  26-bit comparator lessequal                           : 1
- 27-bit comparator lessequal                           : 1
  32-bit comparator equal                               : 1
  4-bit comparator equal                                : 1
  4-bit comparator lessequal                            : 1
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 150
- 1-bit 2-to-1 multiplexer                              : 111
+# Multiplexers                                         : 103
+ 1-bit 2-to-1 multiplexer                              : 63
  1-bit 4-to-1 multiplexer                              : 2
  10-bit 2-to-1 multiplexer                             : 24
  20-bit 2-to-1 multiplexer                             : 3
  26-bit 2-to-1 multiplexer                             : 1
- 27-bit 2-to-1 multiplexer                             : 1
  3-bit 2-to-1 multiplexer                              : 2
- 4-bit 2-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 3
  4-bit 20-to-1 multiplexer                             : 2
  5-bit 2-to-1 multiplexer                              : 1
  9-bit 2-to-1 multiplexer                              : 2
-# FSMs                                                 : 5
+# FSMs                                                 : 3
 # Xors                                                 : 5
  1-bit xor2                                            : 4
  1-bit xor4                                            : 1
@@ -758,29 +683,111 @@ INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmet
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:1290 - Hierarchical block <PlayDebounce> is unconnected in block <SoundModule>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Sheet> is unconnected in block <SoundModule>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <PlayOneShot> is unconnected in block <SoundModule>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <Reader> is unconnected in block <SoundModule>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <PlayNoteUnit> is unconnected in block <SoundModule>.
-   It will be removed from the design.
-WARNING:Xst:1290 - Hierarchical block <NoteUnit> is unconnected in block <SoundModule>.
-   It will be removed from the design.
-WARNING:Xst:2404 -  FFs/Latches <NoteE<19:17>> (without init value) have a constant value of 0 in block <InputModule>.
-WARNING:Xst:2404 -  FFs/Latches <NoteD<19:17>> (without init value) have a constant value of 0 in block <InputModule>.
-WARNING:Xst:2404 -  FFs/Latches <NoteC<19:17>> (without init value) have a constant value of 0 in block <InputModule>.
+INFO:Xst:2261 - The FF/Latch <NoteC_3> in Unit <UnitInput> is equivalent to the following 7 FFs/Latches, which will be removed : <NoteC_7> <NoteC_9> <NoteC_11> <NoteC_13> <NoteC_14> <NoteC_15> <NoteC_17> 
+INFO:Xst:2261 - The FF/Latch <NoteD_1> in Unit <UnitInput> is equivalent to the following 7 FFs/Latches, which will be removed : <NoteD_3> <NoteD_4> <NoteD_8> <NoteD_11> <NoteD_12> <NoteD_15> <NoteD_17> 
+INFO:Xst:2261 - The FF/Latch <NoteE_1> in Unit <UnitInput> is equivalent to the following 5 FFs/Latches, which will be removed : <NoteE_2> <NoteE_7> <NoteE_12> <NoteE_14> <NoteE_17> 
+INFO:Xst:2261 - The FF/Latch <NoteC_0> in Unit <UnitInput> is equivalent to the following 52 FFs/Latches, which will be removed : <NoteC_1> <NoteC_2> <NoteC_4> <NoteC_5> <NoteC_6> <NoteC_8> <NoteC_10> <NoteC_12> <NoteC_16> <NoteC_18> <NoteC_19> <NoteC_20> <NoteC_21> <NoteC_22> <NoteC_23> <NoteC_24> <NoteD_0> <NoteD_2> <NoteD_5> <NoteD_6> <NoteD_7> <NoteD_9> <NoteD_10> <NoteD_13> <NoteD_14> <NoteD_16> <NoteD_18> <NoteD_19> <NoteD_20> <NoteD_21> <NoteD_22> <NoteD_23> <NoteD_24> <NoteE_0> <NoteE_3> <NoteE_4> <NoteE_5> <NoteE_6> <NoteE_8> <NoteE_9> <NoteE_10> <NoteE_11> <NoteE_13> <NoteE_15> <NoteE_16> <NoteE_18> <NoteE_19> <NoteE_20> <NoteE_21> <NoteE_22> <NoteE_23> <NoteE_24> 
+INFO:Xst:2261 - The FF/Latch <Play2> in Unit <game_inst> is equivalent to the following FF/Latch, which will be removed : <Cause2> 
+WARNING:Xst:1710 - FF/Latch <Times1<11>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<11>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<12>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<11>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<10>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<9>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<9>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<10>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<7>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<6>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<9>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<5>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<4>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<6>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<4>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<4>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<3>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<3>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<3>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<19>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<18>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<19>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<18>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <NoteC_0> (without init value) has a constant value of 0 in block <UnitInput>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_31> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_21> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_11> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_01> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<18>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<17>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<16>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<16>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<14>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<14>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<16>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<13>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<12>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<13>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<4>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<4>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<3>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<3>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<4>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<2>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_0_0> (without init value) has a constant value of 1 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<2>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_0_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_1_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_0_0> (without init value) has a constant value of 1 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_1_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_1_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_1_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_0_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_0_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1_0_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_1_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_1_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_1_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_0_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_0_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1_1_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<17>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<18>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<17>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<15>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<15>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<14>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<15>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<12>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<12>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<14>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<11>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<11>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<11>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<10>_1> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<10>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<9>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<9>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<9>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<8>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<7>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<8>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<5>_2> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<5>_3> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Keys1<5>_0> (without init value) has a constant value of 0 in block <Sheet>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <NoteE<24:18>> (without init value) have a constant value of 0 in block <InputModule>.
+WARNING:Xst:2404 -  FFs/Latches <NoteD<24:18>> (without init value) have a constant value of 0 in block <InputModule>.
+WARNING:Xst:2404 -  FFs/Latches <NoteC<24:18>> (without init value) have a constant value of 0 in block <InputModule>.
 
 Synthesizing (advanced) Unit <CRTClockTemplate>.
 The following registers are absorbed into counter <Count>: 1 register on signal <Count>.
 Unit <CRTClockTemplate> synthesized (advanced).
-
-Synthesizing (advanced) Unit <DelayLoop>.
-The following registers are absorbed into counter <count>: 1 register on signal <count>.
-Unit <DelayLoop> synthesized (advanced).
 
 Synthesizing (advanced) Unit <MusicSheetReader>.
 The following registers are absorbed into counter <CurrentAddress>: 1 register on signal <CurrentAddress>.
@@ -813,17 +820,16 @@ Macro Statistics
  11-bit adder                                          : 1
  9-bit addsub                                          : 1
  9-bit subtractor                                      : 1
-# Counters                                             : 9
+# Counters                                             : 8
  10-bit up counter                                     : 1
  20-bit up counter                                     : 3
  26-bit up counter                                     : 1
- 27-bit up counter                                     : 1
  4-bit up counter                                      : 1
  5-bit up counter                                      : 1
  6-bit down counter                                    : 1
-# Registers                                            : 237
- Flip-Flops                                            : 237
-# Comparators                                          : 42
+# Registers                                            : 225
+ Flip-Flops                                            : 225
+# Comparators                                          : 41
  10-bit comparator equal                               : 2
  10-bit comparator greater                             : 3
  10-bit comparator lessequal                           : 22
@@ -833,19 +839,19 @@ Macro Statistics
  14-bit comparator lessequal                           : 1
  20-bit comparator greater                             : 3
  26-bit comparator lessequal                           : 1
- 27-bit comparator lessequal                           : 1
  32-bit comparator equal                               : 1
  4-bit comparator equal                                : 1
  4-bit comparator lessequal                            : 1
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 143
- 1-bit 2-to-1 multiplexer                              : 111
+# Multiplexers                                         : 97
+ 1-bit 2-to-1 multiplexer                              : 63
  1-bit 4-to-1 multiplexer                              : 2
  10-bit 2-to-1 multiplexer                             : 24
  3-bit 2-to-1 multiplexer                              : 2
+ 4-bit 2-to-1 multiplexer                              : 2
  4-bit 20-to-1 multiplexer                             : 2
  9-bit 2-to-1 multiplexer                              : 2
-# FSMs                                                 : 5
+# FSMs                                                 : 3
 # Xors                                                 : 5
  1-bit xor2                                            : 4
  1-bit xor4                                            : 1
@@ -855,100 +861,134 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1710 - FF/Latch <Keys<17>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<19>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<18>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<19>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<19>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<8>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<10>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<8>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<10>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<11>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<11>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<12>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<11>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<12>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<12>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<13>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<15>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<13>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<14>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<15>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<16>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<17>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<16>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<17>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<17>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times<19>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_0_1> (without init value) has a constant value of 1 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys_0_0> (without init value) has a constant value of 1 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys_1_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys_0_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys_0_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys_1_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys_1_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_0_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_0_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_0_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_1_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_1_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<8>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times_1_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys_0_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<8>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<9>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<11>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<10>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<11>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<11>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<12>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<13>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<13>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<13>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<14>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<14>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<16>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<14>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<15>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys<16>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <NoteD_15> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Times1<11>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<12>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<11>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<10>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<9>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<9>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<10>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<7>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<6>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<9>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<5>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<4>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<6>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<4>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<4>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<3>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<3>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<3>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<19>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<18>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<19>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<18>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<17>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_31> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_21> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_11> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_01> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<18>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<17>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<16>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<16>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<14>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<14>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<16>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<13>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<12>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<13>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1<11>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<4>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<4>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<3>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<3>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<4>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<2>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_0_0> (without init value) has a constant value of 1 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<2>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_0_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_1_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_0_0> (without init value) has a constant value of 1 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_1_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_1_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_1_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_0_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_0_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Times1_0_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_1_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_1_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_1_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_0_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_0_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1_1_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<18>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<17>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<15>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<15>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<14>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<15>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<12>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<12>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<14>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<11>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<11>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<11>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<10>_1> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<10>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<9>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<9>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<9>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<8>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<7>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<8>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<5>_2> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<5>_3> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Keys1<5>_0> (without init value) has a constant value of 0 in block <MusicScore>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <NoteD_16> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_14> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_13> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_12> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_10> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_9> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_8> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_7> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_6> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_5> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_4> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_1> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_2> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteD_0> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_16> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_15> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_14> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_12> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_13> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_11> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_10> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_9> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_8> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_7> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_6> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_5> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_4> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_3> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_2> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_15> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_11> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_9> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_7> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteE_0> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_16> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_12> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_10> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_8> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_6> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_5> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_4> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_3> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_2> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_1> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_0> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Cause> (without init value) has a constant value of 0 in block <game>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <NoteC_2> in Unit <InputModule> is equivalent to the following 7 FFs/Latches, which will be removed : <NoteC_6> <NoteC_8> <NoteC_10> <NoteC_12> <NoteC_13> <NoteC_14> <NoteC_16> 
-INFO:Xst:2261 - The FF/Latch <NoteD_0> in Unit <InputModule> is equivalent to the following 7 FFs/Latches, which will be removed : <NoteD_2> <NoteD_3> <NoteD_7> <NoteD_10> <NoteD_11> <NoteD_14> <NoteD_16> 
-INFO:Xst:2261 - The FF/Latch <NoteE_0> in Unit <InputModule> is equivalent to the following 5 FFs/Latches, which will be removed : <NoteE_1> <NoteE_6> <NoteE_11> <NoteE_13> <NoteE_16> 
+INFO:Xst:2261 - The FF/Latch <NoteC_3> in Unit <InputModule> is equivalent to the following 7 FFs/Latches, which will be removed : <NoteC_7> <NoteC_9> <NoteC_11> <NoteC_13> <NoteC_14> <NoteC_15> <NoteC_17> 
+INFO:Xst:2261 - The FF/Latch <NoteD_1> in Unit <InputModule> is equivalent to the following 7 FFs/Latches, which will be removed : <NoteD_3> <NoteD_4> <NoteD_8> <NoteD_11> <NoteD_12> <NoteD_15> <NoteD_17> 
+INFO:Xst:2261 - The FF/Latch <NoteE_1> in Unit <InputModule> is equivalent to the following 5 FFs/Latches, which will be removed : <NoteE_2> <NoteE_7> <NoteE_12> <NoteE_14> <NoteE_17> 
+INFO:Xst:2261 - The FF/Latch <Play2> in Unit <game> is equivalent to the following FF/Latch, which will be removed : <Cause2> 
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <VGAcontroller/hsyncModule/FSM_0> on signal <State[1:3]> with one-hot encoding.
 Optimizing FSM <VGAcontroller/hsyncModule/FSM_0> on signal <State[1:3]> with one-hot encoding.
@@ -961,25 +1001,6 @@ Optimizing FSM <VGAcontroller/hsyncModule/FSM_0> on signal <State[1:3]> with one
 -------------------
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <VGAcontroller/vsyncModule/FSM_0> on signal <State[1:3]> with one-hot encoding.
--------------------
- State | Encoding
--------------------
- 00    | 001
- 01    | 010
- 11    | 100
--------------------
-Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <SoundModule/FSM_1> on signal <State[1:2]> with gray encoding.
--------------------
- State | Encoding
--------------------
- 00    | 00
- 01    | 01
- 10    | 11
- 11    | 10
--------------------
-Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <SoundModule/FSM_2> on signal <State[1:3]> with one-hot encoding.
 -------------------
  State | Encoding
 -------------------
@@ -1013,56 +1034,6 @@ WARNING:Xst:3002 - This design contains one or more registers/latches that are d
   Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
 
   List of register instances with asynchronous set and reset:
-    Times<7>_0 in unit <MusicScore>
-    Times<7>_1 in unit <MusicScore>
-    Times<7>_3 in unit <MusicScore>
-    Times<6>_0 in unit <MusicScore>
-    Times<7>_2 in unit <MusicScore>
-    Times<6>_1 in unit <MusicScore>
-    Times<6>_2 in unit <MusicScore>
-    Times<5>_0 in unit <MusicScore>
-    Times<5>_1 in unit <MusicScore>
-    Times<6>_3 in unit <MusicScore>
-    Times<5>_2 in unit <MusicScore>
-    Times<5>_3 in unit <MusicScore>
-    Times<4>_1 in unit <MusicScore>
-    Times<4>_2 in unit <MusicScore>
-    Times<4>_0 in unit <MusicScore>
-    Times<4>_3 in unit <MusicScore>
-    Times<3>_0 in unit <MusicScore>
-    Times<3>_2 in unit <MusicScore>
-    Times<3>_3 in unit <MusicScore>
-    Times<3>_1 in unit <MusicScore>
-    Times<2>_0 in unit <MusicScore>
-    Times<2>_1 in unit <MusicScore>
-    Times<2>_3 in unit <MusicScore>
-    Times<1>_0 in unit <MusicScore>
-    Times<2>_2 in unit <MusicScore>
-    Keys<7>_0 in unit <MusicScore>
-    Keys<7>_1 in unit <MusicScore>
-    Keys<7>_3 in unit <MusicScore>
-    Keys<6>_0 in unit <MusicScore>
-    Keys<7>_2 in unit <MusicScore>
-    Keys<6>_1 in unit <MusicScore>
-    Keys<6>_2 in unit <MusicScore>
-    Keys<5>_0 in unit <MusicScore>
-    Keys<5>_1 in unit <MusicScore>
-    Keys<6>_3 in unit <MusicScore>
-    Keys<5>_2 in unit <MusicScore>
-    Keys<5>_3 in unit <MusicScore>
-    Keys<4>_1 in unit <MusicScore>
-    Keys<4>_2 in unit <MusicScore>
-    Keys<4>_0 in unit <MusicScore>
-    Keys<4>_3 in unit <MusicScore>
-    Keys<3>_0 in unit <MusicScore>
-    Keys<3>_2 in unit <MusicScore>
-    Keys<3>_3 in unit <MusicScore>
-    Keys<3>_1 in unit <MusicScore>
-    Keys<2>_0 in unit <MusicScore>
-    Keys<2>_1 in unit <MusicScore>
-    Keys<2>_3 in unit <MusicScore>
-    Keys<1>_1 in unit <MusicScore>
-    Keys<2>_2 in unit <MusicScore>
     Q_0 in unit <UniversalCounter10bitsV5>
     Q_1 in unit <UniversalCounter10bitsV5>
     Q_3 in unit <UniversalCounter10bitsV5>
@@ -1083,8 +1054,6 @@ Optimizing unit <UniversalCounter10bitsV5> ...
 
 Optimizing unit <vsyncModuleTemplate> ...
 
-Optimizing unit <PlaySound> ...
-
 Optimizing unit <MusicScore> ...
 
 Optimizing unit <MusicSheetReader> ...
@@ -1096,220 +1065,41 @@ Optimizing unit <OneSecElapseTime> ...
 Optimizing unit <Waveform> ...
 
 Optimizing unit <game> ...
-WARNING:Xst:2677 - Node <SoundModule/PlayOneShot/State_FSM_FFd3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_26> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_25> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_24> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_23> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_22> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_21> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_20> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_19> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_18> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_17> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_16> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_15> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_14> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_13> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_12> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_11> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_10> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_9> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_8> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_7> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_6> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_5> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_4> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/Timer/count_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayOneShot/State_FSM_FFd2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/State_FSM_FFd1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayDebounce/State_FSM_FFd2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/UnitInput/NoteC_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/UnitInput/NoteE_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/UnitInput/NoteD_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/TimeOutput_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/TimeOutput_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/TimeOutput_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/TimeOutput_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/KeyOutput_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/KeyOutput_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/KeyOutput_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/KeyOutput_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<7>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<7>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<7>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<6>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<7>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<6>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<6>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<5>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<5>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<6>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<5>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<5>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<4>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<4>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<4>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<4>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<3>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<3>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<3>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<3>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<2>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<2>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<2>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<1>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Times<2>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<7>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<7>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<7>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<6>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<7>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<6>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<6>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<5>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<5>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<6>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<5>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<5>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<4>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<4>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<4>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<4>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<3>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<3>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<3>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<3>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<2>_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<2>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<2>_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<1>_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Sheet/Keys<2>_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Reader/CurrentAddress_4> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Reader/CurrentAddress_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Reader/CurrentAddress_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Reader/CurrentAddress_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Reader/CurrentAddress_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/Reader/State> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/ElapseSeconds_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/ElapseSeconds_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/ElapseSeconds_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/ElapseSeconds_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/State> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_25> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_24> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_23> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_22> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_21> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_20> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_19> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_18> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_17> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_16> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_15> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_14> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_13> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_12> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_11> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_10> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_9> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_8> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_7> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_6> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_5> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_4> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/SecondsCounter_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/PlayNoteUnit/Timer/State> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_19> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_18> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_17> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_16> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_15> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_14> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_13> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_12> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_11> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_10> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_9> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_8> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_7> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_6> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_5> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_4> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/WaveformCounter_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteCWave/Waveform> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_19> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_18> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_17> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_16> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_15> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_14> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_13> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_12> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_11> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_10> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_9> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_8> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_7> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_6> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_5> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_4> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/WaveformCounter_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteDWave/Waveform> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_19> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_18> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_17> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_16> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_15> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_14> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_13> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_12> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_11> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_10> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_9> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_8> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_7> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_6> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_5> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_4> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_3> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_2> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_1> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/WaveformCounter_0> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <SoundModule/NoteUnit/NoteEWave/Waveform> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:2677 - Node <game_inst/Play> of sequential type is unconnected in block <pongNewDriverTemplate2015Spring>.
-WARNING:Xst:1710 - FF/Latch <VGAcontroller/CRTclockUnit/Count_3> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_1> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <game_inst/ballX_0> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <game_inst/ballY_0> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SoundModule/NoteUnit/NoteCWave/WaveformCounter_18> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SoundModule/NoteUnit/NoteCWave/WaveformCounter_19> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SoundModule/NoteUnit/NoteDWave/WaveformCounter_18> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SoundModule/NoteUnit/NoteDWave/WaveformCounter_19> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SoundModule/NoteUnit/NoteEWave/WaveformCounter_18> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SoundModule/NoteUnit/NoteEWave/WaveformCounter_19> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SoundModule/PlayNoteUnit/Timer/SecondsCounter_25> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_9> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_8> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_6> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_5> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_7> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_3> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_2> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_4> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_5> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_6> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_7> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_8> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_9> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <game_inst/ballY_0> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <game_inst/ballX_0> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_1> (without init value) has a constant value of 0 in block <pongNewDriverTemplate2015Spring>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <game_inst/ballY_1> in Unit <pongNewDriverTemplate2015Spring> is equivalent to the following FF/Latch, which will be removed : <game_inst/ballX_1> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block pongNewDriverTemplate2015Spring, actual ratio is 3.
+Found area constraint ratio of 100 (+ 5) on block pongNewDriverTemplate2015Spring, actual ratio is 6.
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_0 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_1 has been replicated 1 time(s)
 FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_2 has been replicated 1 time(s)
-FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_4 has been replicated 1 time(s)
-FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_5 has been replicated 1 time(s)
-FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_6 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_3 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_4 has been replicated 2 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_5 has been replicated 2 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_6 has been replicated 2 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_7 has been replicated 2 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_8 has been replicated 1 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_2 has been replicated 1 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_3 has been replicated 1 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_5 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -1322,8 +1112,8 @@ Unit <pongNewDriverTemplate2015Spring> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 65
- Flip-Flops                                            : 65
+# Registers                                            : 187
+ Flip-Flops                                            : 187
 # Shift Registers                                      : 2
  2-bit shift register                                  : 2
 
@@ -1348,34 +1138,34 @@ Top Level Output File Name         : pongNewDriverTemplate2015Spring.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 378
+# BELS                             : 764
 #      GND                         : 1
-#      INV                         : 6
-#      LUT2                        : 30
-#      LUT3                        : 25
-#      LUT4                        : 75
-#      LUT5                        : 80
-#      LUT6                        : 106
-#      MUXCY                       : 42
-#      MUXF7                       : 11
+#      INV                         : 9
+#      LUT2                        : 54
+#      LUT3                        : 109
+#      LUT4                        : 122
+#      LUT5                        : 95
+#      LUT6                        : 127
+#      MUXCY                       : 153
+#      MUXF7                       : 13
 #      VCC                         : 1
-#      XORCY                       : 1
-# FlipFlops/Latches                : 67
-#      FD                          : 8
-#      FDC                         : 24
-#      FDE                         : 25
+#      XORCY                       : 80
+# FlipFlops/Latches                : 189
+#      FD                          : 12
+#      FDC                         : 64
+#      FDCE                        : 12
+#      FDE                         : 34
 #      FDR                         : 5
-#      FDRE                        : 1
+#      FDRE                        : 58
 #      FDS                         : 2
 #      FDSE                        : 2
 # Shift Registers                  : 2
 #      SRLC16E                     : 2
 # Clock Buffers                    : 1
-#      BUFG                        : 1
-# IO Buffers                       : 1
-#      IBUFG                       : 1
-# DCMs                             : 1
-#      DCM_SP                      : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 3
+#      OBUF                        : 11
 
 Device utilization summary:
 ---------------------------
@@ -1384,22 +1174,22 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:              67  out of  18224     0%  
- Number of Slice LUTs:                  324  out of   9112     3%  
-    Number used as Logic:               322  out of   9112     3%  
+ Number of Slice Registers:             189  out of  18224     1%  
+ Number of Slice LUTs:                  518  out of   9112     5%  
+    Number used as Logic:               516  out of   9112     5%  
     Number used as Memory:                2  out of   2176     0%  
        Number used as SRL:                2
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    333
-   Number with an unused Flip Flop:     266  out of    333    79%  
-   Number with an unused LUT:             9  out of    333     2%  
-   Number of fully used LUT-FF pairs:    58  out of    333    17%  
-   Number of unique control sets:        13
+ Number of LUT Flip Flop pairs used:    538
+   Number with an unused Flip Flop:     349  out of    538    64%  
+   Number with an unused LUT:            20  out of    538     3%  
+   Number of fully used LUT-FF pairs:   169  out of    538    31%  
+   Number of unique control sets:        26
 
 IO Utilization: 
- Number of IOs:                          14
- Number of bonded IOBs:                   0  out of    232     0%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    232     6%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
@@ -1422,12 +1212,11 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------+------------------------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)                    | Load  |
------------------------------------+------------------------------------------+-------+
-ClockIn                            | NONE(VGAcontroller/CRTclockUnit/CRTclock)| 69    |
------------------------------------+------------------------------------------+-------+
-INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clock                              | BUFGP                  | 191   |
+-----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
 ----------------------------------------
@@ -1437,9 +1226,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 6.614ns (Maximum Frequency: 151.198MHz)
-   Minimum input arrival time before clock: 3.012ns
-   Maximum output required time after clock: 6.777ns
+   Minimum period: 6.134ns (Maximum Frequency: 163.023MHz)
+   Minimum input arrival time before clock: 6.122ns
+   Maximum output required time after clock: 9.940ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -1447,100 +1236,104 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'ClockIn'
-  Clock period: 6.614ns (frequency: 151.198MHz)
-  Total number of paths / destination ports: 11736 / 100
+Timing constraint: Default period analysis for Clock 'Clock'
+  Clock period: 6.134ns (frequency: 163.023MHz)
+  Total number of paths / destination ports: 60108 / 300
 -------------------------------------------------------------------------
-Delay:               6.614ns (Levels of Logic = 5)
-  Source:            VGAcontroller/hsyncModule/XPositionCounter/Q_7 (FF)
-  Destination:       VGAcontroller/hsyncModule/XPositionCounter/Q_7 (FF)
-  Source Clock:      ClockIn rising
-  Destination Clock: ClockIn rising
+Delay:               6.134ns (Levels of Logic = 6)
+  Source:            VGAcontroller/vsyncModule/YPositionCounter/Q_9 (FF)
+  Destination:       VGAcontroller/vsyncModule/YPositionCounter/Q_8 (FF)
+  Source Clock:      Clock rising
+  Destination Clock: Clock rising
 
-  Data Path: VGAcontroller/hsyncModule/XPositionCounter/Q_7 to VGAcontroller/hsyncModule/XPositionCounter/Q_7
+  Data Path: VGAcontroller/vsyncModule/YPositionCounter/Q_9 to VGAcontroller/vsyncModule/YPositionCounter/Q_8
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             21   0.447   1.458  VGAcontroller/hsyncModule/XPositionCounter/Q_7 (VGAcontroller/hsyncModule/XPositionCounter/Q_7)
-     LUT5:I0->O            5   0.203   0.715  VGAcontroller/hsyncModule/LineEnd<9>_SW0 (N6)
-     LUT6:I5->O           33   0.205   1.306  VGAcontroller/hsyncModule/LineEnd<9> (VGAcontroller/LineEnd)
-     LUT5:I4->O            4   0.205   0.912  VGAcontroller/hsyncModule/XPositionCounter/Mmux_NextQ3_A41 (VGAcontroller/hsyncModule/XPositionCounter/Mmux_NextQ3_rs_A<3>)
-     LUT6:I3->O            3   0.205   0.651  VGAcontroller/hsyncModule/XPositionCounter/Mmux_NextQ3_rs_cy<5>11 (VGAcontroller/hsyncModule/XPositionCounter/Mmux_NextQ3_rs_cy<5>1)
-     LUT6:I5->O            1   0.205   0.000  VGAcontroller/hsyncModule/XPositionCounter/Mmux_NextQ3_rs_xor<7>11 (VGAcontroller/hsyncModule/XPositionCounter/Mmux_NextQ3_split<7>)
-     FDC:D                     0.102          VGAcontroller/hsyncModule/XPositionCounter/Q_7
+     FDC:C->Q             14   0.447   1.302  VGAcontroller/vsyncModule/YPositionCounter/Q_9 (VGAcontroller/vsyncModule/YPositionCounter/Q_9)
+     LUT5:I0->O            6   0.203   0.745  VGAcontroller/vsyncModule/FrameEnd<9>_SW0 (N16)
+     LUT6:I5->O            6   0.205   1.109  VGAcontroller/vsyncModule/FrameEnd<9>_1 (VGAcontroller/vsyncModule/FrameEnd<9>)
+     LUT6:I0->O            1   0.203   0.000  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_cy<5>1_SW0_G (N162)
+     MUXF7:I1->O           3   0.140   0.651  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_cy<5>1_SW0 (N12)
+     LUT6:I5->O            2   0.205   0.617  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_cy<5>1 (VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_cy<5>)
+     LUT6:I5->O            1   0.205   0.000  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_xor<8>11 (VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_split<8>)
+     FDC:D                     0.102          VGAcontroller/vsyncModule/YPositionCounter/Q_8
     ----------------------------------------
-    Total                      6.614ns (1.572ns logic, 5.042ns route)
-                                       (23.8% logic, 76.2% route)
+    Total                      6.134ns (1.710ns logic, 4.424ns route)
+                                       (27.9% logic, 72.1% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'ClockIn'
-  Total number of paths / destination ports: 61 / 56
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
+  Total number of paths / destination ports: 177 / 173
 -------------------------------------------------------------------------
-Offset:              3.012ns (Levels of Logic = 3)
+Offset:              6.122ns (Levels of Logic = 5)
   Source:            Reset (PAD)
-  Destination:       game_inst/missTimer_2 (FF)
-  Destination Clock: ClockIn rising
+  Destination:       game_inst/missTimer_5 (FF)
+  Destination Clock: Clock rising
 
-  Data Path: Reset to game_inst/missTimer_2
+  Data Path: Reset to game_inst/missTimer_5
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT4:I0->O           16   0.203   1.109  game_inst/GND_26_o_GND_26_o_OR_86_o4 (game_inst/GND_26_o_GND_26_o_OR_86_o)
-     LUT6:I4->O            1   0.203   0.944  game_inst/_n02191_SW2 (N109)
-     LUT6:I0->O            1   0.203   0.000  game_inst/missTimer_2_rstpot (game_inst/missTimer_2_rstpot)
-     FD:D                      0.102          game_inst/missTimer_2
+     IBUF:I->O           150   1.222   2.256  Reset_IBUF (Reset_IBUF)
+     LUT4:I0->O           15   0.203   0.982  game_inst/GND_35_o_GND_35_o_OR_88_o4 (game_inst/GND_35_o_GND_35_o_OR_88_o)
+     LUT6:I5->O            1   0.205   0.000  game_inst/_n02271_SW7_G (N111)
+     MUXF7:I1->O           1   0.140   0.808  game_inst/_n02271_SW7 (N103)
+     LUT6:I3->O            1   0.205   0.000  game_inst/missTimer_5_rstpot (game_inst/missTimer_5_rstpot)
+     FD:D                      0.102          game_inst/missTimer_5
     ----------------------------------------
-    Total                      3.012ns (0.959ns logic, 2.053ns route)
-                                       (31.8% logic, 68.2% route)
+    Total                      6.122ns (2.077ns logic, 4.045ns route)
+                                       (33.9% logic, 66.1% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'ClockIn'
-  Total number of paths / destination ports: 1669 / 6
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
+  Total number of paths / destination ports: 1672 / 7
 -------------------------------------------------------------------------
-Offset:              6.777ns (Levels of Logic = 6)
+Offset:              9.940ns (Levels of Logic = 7)
   Source:            game_inst/ballY_1 (FF)
   Destination:       blue<0> (PAD)
-  Source Clock:      ClockIn rising
+  Source Clock:      Clock rising
 
   Data Path: game_inst/ballY_1 to blue<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             28   0.447   1.235  game_inst/ballY_1 (game_inst/ballY_1)
-     LUT5:I4->O            4   0.205   0.684  game_inst/Madd_n0172_cy<5>11 (game_inst/Madd_n0172_cy<5>)
-     LUT5:I4->O            2   0.205   0.961  game_inst/Madd_n0172_xor<9>11 (game_inst/n0172<9>)
-     LUT5:I0->O            0   0.203   0.000  game_inst/Mcompar_GND_26_o_BUS_0006_LessThan_47_o_lutdi4 (game_inst/Mcompar_GND_26_o_BUS_0006_LessThan_47_o_lutdi4)
-     MUXCY:DI->O           9   0.339   1.077  game_inst/Mcompar_GND_26_o_BUS_0006_LessThan_47_o_cy<4> (game_inst/GND_26_o_BUS_0006_LessThan_47_o)
+     FDE:C->Q             27   0.447   1.221  game_inst/ballY_1 (game_inst/ballY_1)
+     LUT5:I4->O            4   0.205   0.684  game_inst/Madd_n0180_cy<5>11 (game_inst/Madd_n0180_cy<5>)
+     LUT5:I4->O            2   0.205   0.961  game_inst/Madd_n0180_xor<9>11 (game_inst/n0180<9>)
+     LUT5:I0->O            0   0.203   0.000  game_inst/Mcompar_GND_35_o_BUS_0006_LessThan_49_o_lutdi4 (game_inst/Mcompar_GND_35_o_BUS_0006_LessThan_49_o_lutdi4)
+     MUXCY:DI->O          10   0.339   1.104  game_inst/Mcompar_GND_35_o_BUS_0006_LessThan_49_o_cy<4> (game_inst/GND_35_o_BUS_0006_LessThan_49_o)
      LUT4:I0->O            3   0.203   1.015  game_inst/ball1 (game_inst/ball)
-     LUT6:I0->O            0   0.203   0.000  game_inst/blue<0> (blue<0>)
+     LUT6:I0->O            1   0.203   0.579  game_inst/blue<0> (blue_0_OBUF)
+     OBUF:I->O                 2.571          blue_0_OBUF (blue<0>)
     ----------------------------------------
-    Total                      6.777ns (1.805ns logic, 4.972ns route)
-                                       (26.6% logic, 73.4% route)
+    Total                      9.940ns (4.376ns logic, 5.564ns route)
+                                       (44.0% logic, 56.0% route)
 
 =========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock ClockIn
+Clock to Setup on destination clock Clock
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-ClockIn        |    6.614|         |         |         |
+Clock          |    6.134|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 25.00 secs
-Total CPU time to Xst completion: 24.74 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.66 secs
  
 --> 
 
-Total memory usage is 268564 kilobytes
+Total memory usage is 269768 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  320 (   0 filtered)
-Number of infos    :    9 (   0 filtered)
+Number of warnings :  289 (   0 filtered)
+Number of infos    :   13 (   0 filtered)
 

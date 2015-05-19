@@ -1,0 +1,141 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon May 18 10:16:16 2015
+# Process ID: 6940
+# Log file: C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/pa.fromHdl.tcl}
+# create_project -name VGAControllerPhase2 -dir "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/planAhead_run_2" -part xc6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "pongNewDriverTemplate2015Spring.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/pongNewDriverTemplate2015Spring.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {ipcore_dir/Clock50MHz.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {WaveForm.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {UniversalCounter10bitsV5.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {OneSecElapseTime.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {NoteMap.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {InputModule.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DelayLoop.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ClockedNegativeOneShot.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {vsyncModuleTemplate.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ThreeMusicNotes.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {SheetReader.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PlayNote2.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MusicScore.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {hsyncModuleVer5.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {debouncer.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CRTClockTemplate.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ClockedOneShot.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PlaySound.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {game.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {CRTcontrollerVer5.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {pongNewDriverTemplate2015Spring.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top pongNewDriverTemplate2015Spring $srcset
+# add_files [list {pongNewDriverTemplate2015Spring.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/WaveForm.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/UniversalCounter10bitsV5.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/OneSecElapseTime.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/NoteMap.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/InputModule.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/DelayLoop.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/ClockedNegativeOneShot.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/vsyncModuleTemplate.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/ThreeMusicNotes.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/SheetReader.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/PlayNote2.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/MusicScore.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/ipcore_dir/Clock50MHz.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/hsyncModuleVer5.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/debouncer.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/CRTClockTemplate.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/ClockedOneShot.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/PlaySound.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/game.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/CRTcontrollerVer5.v" into library work
+Analyzing Verilog file "C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/pongNewDriverTemplate2015Spring.v" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/pongNewDriverTemplate2015Spring.ucf]
+Finished Parsing UCF File [C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2/pongNewDriverTemplate2015Spring.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 5a7b50d3
+open_rtl_design: Time (s): elapsed = 00:00:28 . Memory (MB): peak = 619.484 ; gain = 177.926
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin L3 [get_ports Speaker]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports Speaker]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/stollcj.001/Documents/Spring 2014/ECE 333/Final Project/VGAControllerPhase2\planAhead_pid6940.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon May 18 10:18:38 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

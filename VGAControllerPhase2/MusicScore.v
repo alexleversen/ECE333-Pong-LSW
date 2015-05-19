@@ -2,7 +2,7 @@
 //Music score in RAM
 module MusicScore(Cause, ReadOrWrite, Address, KeyInput, KeyOutput, TimeInput, TimeOutput,Clock, Reset);
 input ReadOrWrite, Clock, Reset;
-input Cause;
+input [1:0] Cause;
 parameter DataLength=4;
 input [DataLength-1:0] KeyInput, TimeInput;
 output reg [DataLength-1:0] KeyOutput, TimeOutput;
@@ -10,30 +10,28 @@ parameter AddressBits=5;
 input [AddressBits-1:0] Address;
 parameter MemorySize=20;
 
-reg [DataLength-1:0] Keys [0:MemorySize-1];
-reg [DataLength-1:0] Times [0:MemorySize-1];
+reg [DataLength-1:0] Keys1 [0:MemorySize-1];
+reg [DataLength-1:0] Keys2 [0:MemorySize-1];
+reg [DataLength-1:0] Times1 [0:MemorySize-1];
+reg [DataLength-1:0] Times2 [0:MemorySize-1];
 
 always@(posedge Clock or posedge Reset)
 	if(Reset==1) begin
-	if(Cause == 1) begin
-	Keys[0]<=1; Times[0]<=2;
-	Keys[1]<=2; Times[1]<=1;
-	Keys[2]<=3; Times[2]<=1;
-	Keys[3]<=3; Times[3]<=1;
-	Keys[4]<=2; Times[4]<=1;
-	Keys[5]<=1; Times[5]<=1;
-	Keys[6]<=1; Times[6]<=1;
-	Keys[7]<=0; Times[7]<=0;
-	end
-	else begin
-	Keys[0]<=1; Times[0]<=2;
-	Keys[1]<=0; Times[1]<=0;
-	end
+		begin
+		Keys1[0]<=1; Times1[0]<=1;
+		Keys1[1]<=0; Times1[1]<=0;
+		
+		Keys2[0]<=3; Times2[0]<=1;
+		Keys2[1]<=0; Times2[1]<=0;
+		end
 	end 
 	else if (ReadOrWrite==1) begin	//read memory
-		KeyOutput<=Keys[Address]; TimeOutput<=Times[Address];
-	end
+		if(Cause == 2'b10) 
+			begin KeyOutput<=Keys1[Address]; TimeOutput<=Times1[Address]; end
+		if(Cause == 2'b01)
+			begin KeyOutput<=Keys2[Address]; TimeOutput<=Times2[Address]; end
+		end
 	else begin
-		Keys[Address]<=KeyInput; Times[Address]<=TimeInput;
+		Keys1[Address]<=KeyInput; Times1[Address]<=TimeInput;
 	end
 endmodule
