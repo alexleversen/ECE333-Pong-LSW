@@ -11,7 +11,7 @@ output Speaker;
 
 wire Clock;
 
-Clock50MHz clockUnit(Clock100MHz, Clock, );
+Clock50MHz clockUnit(Clock100MHz, Clock );
 parameter AddressBits=5;
 parameter DataLength=4;
 wire [2:0] NoteArray;	//three notes

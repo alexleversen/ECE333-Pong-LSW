@@ -27,8 +27,8 @@ module game(input clk25,
 				output [2:0] red,
 				output [2:0] green,
 				output [1:0] blue,
-				output Play,
-				output Cause);
+				output reg Play,
+				output reg Cause);
 		
 // paddle movement		
 reg [8:0] paddlePosition;
@@ -39,7 +39,8 @@ always @(posedge clk25) quadBr <= {quadBr[1:0], rotb};
 always @(posedge clk25)
 if(quadAr[2] ^ quadAr[1] ^ quadBr[2] ^ quadBr[1])
 begin
-	Play = 1; Cause = 0;
+	Play <= 1; Cause = 0;
+	Play <= 1; Cause = 0;
 	if(quadAr[2] ^ quadBr[1]) begin
 		if(paddlePosition < 508)        // make sure the value doesn't overflow
 			paddlePosition <= paddlePosition + 4;

@@ -23,8 +23,28 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CRTClockGeneratorTB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CRTcontrollerVer5.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CRTcontrollerVer5.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CRTcontrollerVer5.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CRTcontrollerVer5.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CRTcontrollerVer5.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CRTcontrollerVer5.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CRTcontrollerVer5.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CRTcontrollerVer5.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CRTcontrollerVer5TB_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CRTcontrollerVer5TB_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CRTcontrollerVer5TB_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CRTcontrollerVer5_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CRTcontrollerVer5_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="PlaySound.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="PlaySound.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="PlaySound.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="PlaySound.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PlaySound.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="PlaySound.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="PlaySound.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="PlaySound.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PlaySound_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PlaySound_xst.xrpt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -33,6 +53,7 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
@@ -113,6 +134,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="InputAdded"/>
     </transform>
     <transform xil_pn:end_ts="1431954206" xil_pn:in_ck="7583845251218569701" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1431954206">
@@ -148,108 +170,56 @@
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1431617268" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1431617268">
+    <transform xil_pn:end_ts="1431959610" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1431959610">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1431617268" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1106802625765368022" xil_pn:start_ts="1431617268">
+    <transform xil_pn:end_ts="1431959610" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1106802625765368022" xil_pn:start_ts="1431959610">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1431617268" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1904226373689427589" xil_pn:start_ts="1431617268">
+    <transform xil_pn:end_ts="1431959611" xil_pn:in_ck="4714684431915413735" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1904226373689427589" xil_pn:start_ts="1431959610">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="ipcore_dir/Clock50MHz.v"/>
     </transform>
-    <transform xil_pn:end_ts="1431617268" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1431617268">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1431617268" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6042683916813045608" xil_pn:start_ts="1431617268">
+    <transform xil_pn:end_ts="1431959611" xil_pn:in_ck="8010633663532247094" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1431959611">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1431617268" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1431617268">
+    <transform xil_pn:end_ts="1431959611" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6042683916813045608" xil_pn:start_ts="1431959611">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1431617268" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1818455076129707953" xil_pn:start_ts="1431617268">
+    <transform xil_pn:end_ts="1431959611" xil_pn:in_ck="8010633663532247094" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1431959611">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1431954265" xil_pn:in_ck="2823490761408556828" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-2004943283157009228" xil_pn:start_ts="1431954229">
+    <transform xil_pn:end_ts="1431959611" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1818455076129707953" xil_pn:start_ts="1431959611">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1431960217" xil_pn:in_ck="-9115272468154493901" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="8113018099236886015" xil_pn:start_ts="1431960188">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="CRTcontrollerVer5.ngr"/>
+      <outfile xil_pn:name="PlaySound.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="pongNewDriverTemplate2015Spring.lso"/>
+      <outfile xil_pn:name="pongNewDriverTemplate2015Spring.ngc"/>
+      <outfile xil_pn:name="pongNewDriverTemplate2015Spring.ngr"/>
+      <outfile xil_pn:name="pongNewDriverTemplate2015Spring.prj"/>
+      <outfile xil_pn:name="pongNewDriverTemplate2015Spring.stx"/>
+      <outfile xil_pn:name="pongNewDriverTemplate2015Spring.syr"/>
+      <outfile xil_pn:name="pongNewDriverTemplate2015Spring.xst"/>
+      <outfile xil_pn:name="pongNewDriverTemplate2015Spring_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1431712137" xil_pn:in_ck="-3610311431748667699" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2292177119612666557" xil_pn:start_ts="1431712137">
+    <transform xil_pn:end_ts="1431958735" xil_pn:in_ck="4389747920653456648" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2292177119612666557" xil_pn:start_ts="1431958735">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-    </transform>
-    <transform xil_pn:end_ts="1431954283" xil_pn:in_ck="7752017353232847604" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6463385488939697734" xil_pn:start_ts="1431954265">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1431954327" xil_pn:in_ck="2615772285951107925" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1431954283">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1431954365" xil_pn:in_ck="-1784312905251434802" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1431954327">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1431954401" xil_pn:in_ck="-3610311431748675324" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1431954365">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1431954365" xil_pn:in_ck="-1929409560112664239" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1431954352">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 

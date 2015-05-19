@@ -1,11 +1,11 @@
 set -tmpdir "xst/projnav.tmp"
 set -xsthdpdir "xst"
 run
--ifn pongNewDriverTemplate2015Spring.prj
--ofn pongNewDriverTemplate2015Spring
+-ifn CRTcontrollerVer5.prj
+-ofn CRTcontrollerVer5
 -ofmt NGC
 -p xc6slx16-3-csg324
--top pongNewDriverTemplate2015Spring
+-top CRTcontrollerVer5
 -opt_mode Speed
 -opt_level 1
 -power NO
@@ -39,7 +39,7 @@ run
 -async_to_sync NO
 -shreg_min_size 2
 -use_dsp48 Auto
--iobuf NO
+-iobuf YES
 -max_fanout 100000
 -bufg 16
 -register_duplication YES

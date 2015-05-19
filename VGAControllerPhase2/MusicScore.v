@@ -1,8 +1,8 @@
 `timescale 1ns / 1ps
 //Music score in RAM
-module MusicScore(Select, ReadOrWrite, Address, KeyInput, KeyOutput, TimeInput, TimeOutput,Clock, Reset);
+module MusicScore(Cause, ReadOrWrite, Address, KeyInput, KeyOutput, TimeInput, TimeOutput,Clock, Reset);
 input ReadOrWrite, Clock, Reset;
-input [1:0] Cause;
+input Cause;
 parameter DataLength=4;
 input [DataLength-1:0] KeyInput, TimeInput;
 output reg [DataLength-1:0] KeyOutput, TimeOutput;
@@ -15,7 +15,7 @@ reg [DataLength-1:0] Times [0:MemorySize-1];
 
 always@(posedge Clock or posedge Reset)
 	if(Reset==1) begin
-	if(Select == 1) begin
+	if(Cause == 1) begin
 	Keys[0]<=1; Times[0]<=2;
 	Keys[1]<=2; Times[1]<=1;
 	Keys[2]<=3; Times[2]<=1;

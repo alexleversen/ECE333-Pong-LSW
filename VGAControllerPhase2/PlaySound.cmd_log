@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/leversad/Documents/Courses/2015 Spring/ECE333/ECE333-Pong-LSW/ECE333-Pong-LSW/VGAControllerPhase2/PlaySound.xst" -ofn "C:/Users/leversad/Documents/Courses/2015 Spring/ECE333/ECE333-Pong-LSW/ECE333-Pong-LSW/VGAControllerPhase2/PlaySound.syr" 
