@@ -10,6 +10,9 @@ NET "green[2]" IOSTANDARD = LVCMOS33;
 NET "green[1]" IOSTANDARD = LVCMOS33;
 NET "green[0]" IOSTANDARD = LVCMOS33;
 
+NET "go" LOC = B8;
+NET "SCL" LOC = L4;
+NET "SDA" LOC = L3;
 
 NET "green[2]" LOC = V6;
 NET "green[1]" LOC = T6;

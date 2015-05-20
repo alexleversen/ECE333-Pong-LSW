@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\PongwithSoundandFeatures.ncd
+OUTFILE=C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\PongwithSoundandFeatures.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2
+LICENSE=WebPack
+USER_INFO=211019926_0_0_172

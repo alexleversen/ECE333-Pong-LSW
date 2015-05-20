@@ -13,11 +13,13 @@
 //try to match the video_timer
 
 module PongwithSoundandFeatures(
-    input Clock, Reset, rota, rotb,
+    input Clock, Reset, rota, rotb, go,
     output [2:0] red,
     output [2:0] green,
     output [1:0] blue,
-    output hsync, vsync, Speaker
+    output hsync, vsync, Speaker,
+	 output SCL,
+	 inout SDA
     );
 
 wire [9:0] xpos;
@@ -28,6 +30,6 @@ parameter [9:0] NumberofPixels=10'd640, NumberofLines=10'd480, SystemClock=10'd1
 
 CRTcontrollerVer5 VGAcontroller(NumberofPixels, NumberofLines, SystemClock, hsync, vsync, xpos, ypos, Reset, Clock);
 PlaySound SoundModule(Play, Cause, Speaker, Reset, Clock);
-game game_inst(Clock, Reset, xpos, ypos, rota, rotb, red, green, blue, Play, Cause, Score);
+game game_inst(go, Clock, Reset, xpos, ypos, rota, rotb, red, green, blue, Play, Cause, Score, SDA, SCL);
 					
 endmodule

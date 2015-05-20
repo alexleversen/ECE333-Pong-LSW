@@ -18,7 +18,8 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module game(input clk25,
+module game(input go,
+				input clk25,
 				input reset,
 				input [9:0] xpos,
 				input [9:0] ypos,
@@ -29,7 +30,9 @@ module game(input clk25,
 				output [1:0] blue,
 				output reg Play,
 				output reg [1:0] Cause,
-				output [3:0] Score);
+				output reg [3:0] Score,
+				inout SDA,
+				output SCL);
 		
 // paddle movement		
 reg [8:0] paddlePosition;
@@ -88,6 +91,22 @@ always @(posedge clk25) begin
 		end	
 		end		
 		
+	 wire [7:0] Temp1, Temp2,Temp1D1Seg,Temp1D0Seg,Temp2D1Seg,Temp2D0Seg,RecData,FirstByte;
+	 wire [3:0] Temp1D1,Temp1D0,Temp2D1,Temp2D0;
+	 wire DONE,StartReading;
+	 TwoTemperatureConverter ConvertUnit(Temp1,Temp2,Temp1D1,Temp1D0,Temp2D1,Temp2D0);
+	 TopLevelController TopLevelController(go,8'b10010011,8'b10010101,RecData,DONE,StartReading,FirstByte,Temp1,Temp2,reset,clk25);
+	 ReadTempI2C ReadUnit(20'd19200,30'd100000000,FirstByte,clk25,reset,StartReading,RecData,DONE,SCL,SDA);
+		
+		
+		
+		
+		
+		
+wire digpix1, digpix2;
+VGA7SegDisplay(575 , 50, xpos, ypos, Temp1D0, digpix1);
+VGA7SegDisplay(600 , 50, xpos, ypos, Temp1D1, digpix2);
+//VGA7SegDisplay(input [9:0] digitXPosition, digitYPosition, xpos, ypos,[3:0] digit,digitpixel
 // pixel color	
 reg [5:0] missTimer;	
 wire visible = (xpos < 640 && ypos < 480);
@@ -103,7 +122,7 @@ wire checkerboard = (xpos[5] ^ ypos[5]);
 wire missed = visible && missTimer != 0;
 
 assign red   = { missed || border || paddle, 2'b00 };
-assign green = { !missed && (border || paddle || ball), 2'b00 };
+assign green = { !missed && (border || paddle || ball || digpix1 || digpix2), 2'b00 };
 assign blue  = { !missed && (border || ball), background && checkerboard };//, background && !checkerboard, background && !checkerboard  }; 
 		
 // ball collision	
