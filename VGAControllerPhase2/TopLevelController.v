@@ -61,10 +61,10 @@ case(State)
 	2:			begin StartReading<=1; FirstByte<=FirstChip;  FirstTemp<=FirstTemp; SecondTemp<=SecondTemp; ClearTimer<=1; end
 	3: 		begin StartReading<=0; FirstByte<=FirstChip;  FirstTemp<=FirstTemp; SecondTemp<=SecondTemp; ClearTimer<=0; end
 	4: 		begin StartReading<=0; FirstByte<=FirstChip;  FirstTemp<=RecData;   SecondTemp<=SecondTemp; ClearTimer<=0; end
-	5: 		begin StartReading<=1; FirstByte<=SecondChip; FirstTemp<=FirstTemp; SecondTemp<=SecondTemp; ClearTimer<=0; end
-	6: 		begin StartReading<=1; FirstByte<=SecondChip; FirstTemp<=FirstTemp; SecondTemp<=SecondTemp; ClearTimer<=1; end
-	7: 		begin StartReading<=0; FirstByte<=SecondChip; FirstTemp<=FirstTemp; SecondTemp<=SecondTemp; ClearTimer<=0; end
-	8: 		begin StartReading<=0; FirstByte<=SecondChip; FirstTemp<=FirstTemp; SecondTemp<=RecData;    ClearTimer<=0; end
+	5: 		begin StartReading<=1; FirstByte<=FirstChip; FirstTemp<=FirstTemp; SecondTemp<=SecondTemp; ClearTimer<=0; end
+	6: 		begin StartReading<=1; FirstByte<=FirstChip; FirstTemp<=FirstTemp; SecondTemp<=SecondTemp; ClearTimer<=1; end
+	7: 		begin StartReading<=0; FirstByte<=FirstChip; FirstTemp<=FirstTemp; SecondTemp<=SecondTemp; ClearTimer<=0; end
+	8: 		begin StartReading<=0; FirstByte<=FirstChip; FirstTemp<=FirstTemp; SecondTemp<=RecData;    ClearTimer<=0; end
 	default: begin StartReading<=0; FirstByte<=0;          FirstTemp<=0; 		  SecondTemp<=0;          ClearTimer<=0; end
 endcase
 

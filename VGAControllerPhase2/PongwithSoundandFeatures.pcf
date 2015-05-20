@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue May 19 22:13:44 2015
+// Written by: Map P.20131013 on Wed May 20 10:04:52 2015
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -15,6 +15,14 @@ COMP "blue<1>" LOCATE = SITE "T7" LEVEL 1;
 COMP "Reset" LOCATE = SITE "C9" LEVEL 1;
 COMP "hsync" LOCATE = SITE "N6" LEVEL 1;
 COMP "vsync" LOCATE = SITE "P7" LEVEL 1;
+COMP "temp<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "temp<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "temp<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "temp<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "temp<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "temp<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "temp<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "temp<7>" LOCATE = SITE "T11" LEVEL 1;
 COMP "red<0>" LOCATE = SITE "U7" LEVEL 1;
 COMP "red<1>" LOCATE = SITE "V7" LEVEL 1;
 COMP "red<2>" LOCATE = SITE "N7" LEVEL 1;

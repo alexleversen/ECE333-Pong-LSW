@@ -1,3 +1,20 @@
+NET "temp[7]" LOC = T11;
+NET "temp[6]" LOC = R11;
+NET "temp[5]" LOC = N11;
+NET "temp[4]" LOC = M11;
+NET "temp[3]" LOC = V15;
+NET "temp[2]" LOC = U15;
+NET "temp[1]" LOC = V16;
+NET "temp[0]" LOC = U16;
+
+NET "temp[7]" IOSTANDARD = LVCMOS33;
+NET "temp[6]" IOSTANDARD = LVCMOS33;
+NET "temp[5]" IOSTANDARD = LVCMOS33;
+NET "temp[4]" IOSTANDARD = LVCMOS33;
+NET "temp[3]" IOSTANDARD = LVCMOS33;
+NET "temp[2]" IOSTANDARD = LVCMOS33;
+NET "temp[1]" IOSTANDARD = LVCMOS33;
+NET "temp[0]" IOSTANDARD = LVCMOS33;
 
 
 NET "blue[1]" LOC = T7;

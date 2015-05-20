@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.23 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.24 secs
  
 --> Reading design: PongwithSoundandFeatures.prj
 
@@ -206,17 +206,17 @@ WARNING:HDLCompiler:189 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGI
 Elaborating module <Waveform>.
 
 Elaborating module <game>.
-WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 54: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 58: Result of 32-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 82: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 84: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 87: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 89: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 55: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 59: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 83: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 85: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 88: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 90: Result of 32-bit expression is truncated to fit in 9-bit target.
 
 Elaborating module <TwoTemperatureConverter>.
 WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\TwoTemperatureConverter.v" Line 30: Result of 8-bit expression is truncated to fit in 4-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\TwoTemperatureConverter.v" Line 32: Result of 8-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:1127 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 97: Assignment to Temp2D1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 98: Assignment to Temp2D1 ignored, since the identifier is never used
 
 Elaborating module <TopLevelController>.
 
@@ -235,15 +235,21 @@ Elaborating module <MasterDataUnitI2C>.
 Elaborating module <ShiftRegisterI2C>.
 
 Elaborating module <SDAmodule>.
-WARNING:HDLCompiler:604 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 107: Module instantiation should have an instance name
+WARNING:HDLCompiler:604 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 105: Module instantiation should have an instance name
 
 Elaborating module <VGA7SegDisplay>.
+WARNING:HDLCompiler:189 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 105: Size mismatch in connection of port <digitXPosition>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:604 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 106: Module instantiation should have an instance name
+WARNING:HDLCompiler:189 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 106: Size mismatch in connection of port <digitXPosition>. Formal port size is 10-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:604 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 107: Module instantiation should have an instance name
 WARNING:HDLCompiler:189 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 107: Size mismatch in connection of port <digitXPosition>. Formal port size is 10-bit while actual signal size is 32-bit.
 WARNING:HDLCompiler:604 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 108: Module instantiation should have an instance name
 WARNING:HDLCompiler:189 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 108: Size mismatch in connection of port <digitXPosition>. Formal port size is 10-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 157: Result of 32-bit expression is truncated to fit in 6-bit target.
-WARNING:HDLCompiler:189 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" Line 33: Size mismatch in connection of port <Score>. Formal port size is 4-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:1127 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" Line 33: Assignment to Score ignored, since the identifier is never used
+WARNING:HDLCompiler:604 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 130: Module instantiation should have an instance name
+WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 152: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 174: Result of 32-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:189 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" Line 34: Size mismatch in connection of port <Score>. Formal port size is 8-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" Line 34: Assignment to Score ignored, since the identifier is never used
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -254,7 +260,7 @@ Synthesizing Unit <PongwithSoundandFeatures>.
         NumberofPixels = 10'b1010000000
         NumberofLines = 10'b0111100000
         SystemClock = 10'b0001100100
-INFO:Xst:3210 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" line 33: Output port <Score> of the instance <game_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" line 34: Output port <Score> of the instance <game_inst> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <PongwithSoundandFeatures> synthesized.
@@ -623,8 +629,8 @@ Unit <Waveform> synthesized.
 
 Synthesizing Unit <game>.
     Related source file is "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v".
-INFO:Xst:3210 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" line 97: Output port <Temp2D1> of the instance <ConvertUnit> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" line 97: Output port <Temp2D0> of the instance <ConvertUnit> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" line 98: Output port <Temp2D1> of the instance <ConvertUnit> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" line 98: Output port <Temp2D0> of the instance <ConvertUnit> is unconnected or connected to loadless signal.
     Register <Cause1> equivalent to <Play1> has been removed
     Found 3-bit register for signal <quadBr>.
     Found 1-bit register for signal <Play>.
@@ -635,43 +641,47 @@ INFO:Xst:3210 - "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-P
     Found 9-bit register for signal <ballY>.
     Found 1-bit register for signal <bounceX>.
     Found 1-bit register for signal <bounceY>.
+    Found 1-bit register for signal <ScoreFlag>.
     Found 6-bit register for signal <missTimer>.
     Found 1-bit register for signal <Play2>.
     Found 1-bit register for signal <Cause2>.
-    Found 4-bit register for signal <Score>.
+    Found 8-bit register for signal <Score>.
     Found 1-bit register for signal <ballXdir>.
     Found 1-bit register for signal <ballYdir>.
     Found 3-bit register for signal <quadAr>.
-    Found 10-bit adder for signal <ballX[9]_GND_35_o_add_22_OUT> created at line 82.
-    Found 9-bit adder for signal <ballY[8]_GND_35_o_add_25_OUT> created at line 87.
-    Found 10-bit adder for signal <n0188> created at line 118.
-    Found 10-bit adder for signal <n0189> created at line 118.
-    Found 11-bit adder for signal <n0191> created at line 119.
-    Found 10-bit adder for signal <n0193> created at line 119.
-    Found 9-bit subtractor for signal <GND_35_o_GND_35_o_sub_12_OUT<8:0>> created at line 58.
-    Found 10-bit subtractor for signal <GND_35_o_GND_35_o_sub_24_OUT<9:0>> created at line 84.
-    Found 9-bit subtractor for signal <GND_35_o_GND_35_o_sub_27_OUT<8:0>> created at line 89.
-    Found 6-bit subtractor for signal <GND_35_o_GND_35_o_sub_62_OUT<5:0>> created at line 157.
-    Found 9-bit comparator lessequal for signal <paddlePosition[8]_PWR_20_o_LessThan_8_o> created at line 53
-    Found 9-bit comparator lessequal for signal <GND_35_o_paddlePosition[8]_LessThan_11_o> created at line 57
-    Found 10-bit comparator greater for signal <xpos[9]_PWR_20_o_LessThan_37_o> created at line 112
-    Found 10-bit comparator greater for signal <ypos[9]_GND_35_o_LessThan_38_o> created at line 112
-    Found 10-bit comparator lessequal for signal <n0039> created at line 113
-    Found 10-bit comparator lessequal for signal <n0042> created at line 114
-    Found 10-bit comparator lessequal for signal <n0045> created at line 115
-    Found 10-bit comparator lessequal for signal <n0048> created at line 116
-    Found 10-bit comparator lessequal for signal <n0055> created at line 118
-    Found 10-bit comparator lessequal for signal <n0058> created at line 118
-    Found 10-bit comparator lessequal for signal <n0061> created at line 118
-    Found 10-bit comparator lessequal for signal <n0064> created at line 118
-    Found 10-bit comparator lessequal for signal <n0067> created at line 119
-    Found 11-bit comparator lessequal for signal <n0070> created at line 119
-    Found 10-bit comparator lessequal for signal <n0073> created at line 119
-    Found 10-bit comparator lessequal for signal <n0077> created at line 119
+    Found 11-bit subtractor for signal <GND_35_o_GND_35_o_sub_51_OUT> created at line 118.
+    Found 10-bit adder for signal <ballX[9]_GND_35_o_add_22_OUT> created at line 83.
+    Found 9-bit adder for signal <ballY[8]_GND_35_o_add_25_OUT> created at line 88.
+    Found 10-bit adder for signal <n0209> created at line 118.
+    Found 10-bit adder for signal <n0235[9:0]> created at line 118.
+    Found 11-bit adder for signal <n0215> created at line 119.
+    Found 10-bit adder for signal <n0217> created at line 119.
+    Found 8-bit adder for signal <Score[7]_GND_35_o_add_67_OUT> created at line 152.
+    Found 9-bit subtractor for signal <GND_35_o_GND_35_o_sub_12_OUT<8:0>> created at line 59.
+    Found 10-bit subtractor for signal <GND_35_o_GND_35_o_sub_24_OUT<9:0>> created at line 85.
+    Found 9-bit subtractor for signal <GND_35_o_GND_35_o_sub_27_OUT<8:0>> created at line 90.
+    Found 6-bit subtractor for signal <GND_35_o_GND_35_o_sub_75_OUT<5:0>> created at line 174.
+    Found 9-bit comparator lessequal for signal <paddlePosition[8]_PWR_20_o_LessThan_8_o> created at line 54
+    Found 9-bit comparator lessequal for signal <GND_35_o_paddlePosition[8]_LessThan_11_o> created at line 58
+    Found 10-bit comparator greater for signal <xpos[9]_PWR_20_o_LessThan_42_o> created at line 112
+    Found 10-bit comparator greater for signal <ypos[9]_GND_35_o_LessThan_43_o> created at line 112
+    Found 10-bit comparator lessequal for signal <n0040> created at line 113
+    Found 10-bit comparator lessequal for signal <n0043> created at line 114
+    Found 10-bit comparator lessequal for signal <n0046> created at line 115
+    Found 10-bit comparator lessequal for signal <n0049> created at line 116
+    Found 10-bit comparator lessequal for signal <n0056> created at line 118
+    Found 32-bit comparator lessequal for signal <n0060> created at line 118
+    Found 10-bit comparator lessequal for signal <n0063> created at line 118
+    Found 10-bit comparator lessequal for signal <n0066> created at line 118
+    Found 10-bit comparator lessequal for signal <n0069> created at line 119
+    Found 11-bit comparator lessequal for signal <n0072> created at line 119
+    Found 10-bit comparator lessequal for signal <n0075> created at line 119
+    Found 10-bit comparator lessequal for signal <n0079> created at line 119
+    Found 8-bit comparator lessequal for signal <Score[7]_GND_35_o_LessThan_67_o> created at line 151
     Summary:
-	inferred   8 Adder/Subtractor(s).
-	inferred  54 D-type flip-flop(s).
-	inferred  16 Comparator(s).
+	inferred  10 Adder/Subtractor(s).
+	inferred  59 D-type flip-flop(s).
+	inferred  17 Comparator(s).
 	inferred   3 Multiplexer(s).
 Unit <game> synthesized.
 
@@ -751,6 +761,7 @@ Unit <mod_8u_4u> synthesized.
 
 Synthesizing Unit <TopLevelController>.
     Related source file is "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\TopLevelController.v".
+WARNING:Xst:647 - Input <SecondChip> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit register for signal <StartReading>.
     Found 8-bit register for signal <FirstByte>.
     Found 8-bit register for signal <FirstTemp>.
@@ -969,6 +980,7 @@ Unit <ClockedPositiveOneShot> synthesized.
 Synthesizing Unit <MasterDataUnitI2C>.
     Related source file is "C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\MasterDataUnitI2C.v".
         LENGTH = 8
+WARNING:Xst:647 - Input <ClockFrequency> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	no macro.
 Unit <MasterDataUnitI2C> synthesized.
@@ -1031,6 +1043,49 @@ Synthesizing Unit <VGA7SegDisplay>.
 	inferred   1 Multiplexer(s).
 Unit <VGA7SegDisplay> synthesized.
 
+Synthesizing Unit <div_6u_4u>.
+    Related source file is "".
+    Found 10-bit adder for signal <GND_55_o_b[3]_add_1_OUT> created at line 0.
+    Found 9-bit adder for signal <GND_55_o_b[3]_add_3_OUT> created at line 0.
+    Found 8-bit adder for signal <GND_55_o_b[3]_add_5_OUT> created at line 0.
+    Found 7-bit adder for signal <GND_55_o_b[3]_add_7_OUT> created at line 0.
+    Found 6-bit adder for signal <a[5]_b[3]_add_9_OUT[5:0]> created at line 0.
+    Found 6-bit adder for signal <a[5]_GND_55_o_add_11_OUT[5:0]> created at line 0.
+    Found 10-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 7-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Summary:
+	inferred   6 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+	inferred  21 Multiplexer(s).
+Unit <div_6u_4u> synthesized.
+
+Synthesizing Unit <mod_6u_4u>.
+    Related source file is "".
+    Found 10-bit adder for signal <GND_56_o_b[3]_add_1_OUT> created at line 0.
+    Found 9-bit adder for signal <GND_56_o_b[3]_add_3_OUT> created at line 0.
+    Found 8-bit adder for signal <GND_56_o_b[3]_add_5_OUT> created at line 0.
+    Found 7-bit adder for signal <GND_56_o_b[3]_add_7_OUT> created at line 0.
+    Found 6-bit adder for signal <a[5]_b[3]_add_9_OUT> created at line 0.
+    Found 6-bit adder for signal <a[5]_GND_56_o_add_11_OUT> created at line 0.
+    Found 6-bit adder for signal <a[5]_GND_56_o_add_13_OUT> created at line 0.
+    Found 10-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 9-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 8-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 7-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 6-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+	inferred  37 Multiplexer(s).
+Unit <mod_6u_4u> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
@@ -1038,13 +1093,14 @@ Macro Statistics
 # RAMs                                                 : 2
  16x8-bit single-port Read Only RAM                    : 1
  8x2-bit single-port Read Only RAM                     : 1
-# Adders/Subtractors                                   : 254
- 10-bit adder                                          : 17
+# Adders/Subtractors                                   : 301
+ 10-bit adder                                          : 19
  10-bit addsub                                         : 3
- 10-bit subtractor                                     : 5
- 11-bit adder                                          : 24
- 12-bit adder                                          : 11
- 12-bit subtractor                                     : 12
+ 10-bit subtractor                                     : 9
+ 11-bit adder                                          : 38
+ 11-bit subtractor                                     : 1
+ 12-bit adder                                          : 13
+ 12-bit subtractor                                     : 24
  13-bit adder                                          : 1
  14-bit adder                                          : 1
  16-bit adder                                          : 2
@@ -1077,13 +1133,15 @@ Macro Statistics
  5-bit adder                                           : 1
  50-bit adder                                          : 4
  51-bit adder                                          : 4
+ 6-bit adder                                           : 5
  6-bit subtractor                                      : 1
- 8-bit adder                                           : 36
- 9-bit adder                                           : 8
+ 7-bit adder                                           : 2
+ 8-bit adder                                           : 39
+ 9-bit adder                                           : 10
  9-bit addsub                                          : 1
  9-bit subtractor                                      : 1
-# Registers                                            : 159
- 1-bit register                                        : 125
+# Registers                                            : 160
+ 1-bit register                                        : 126
  10-bit register                                       : 2
  16-bit register                                       : 2
  2-bit register                                        : 2
@@ -1092,17 +1150,17 @@ Macro Statistics
  26-bit register                                       : 1
  27-bit register                                       : 2
  3-bit register                                        : 2
- 4-bit register                                        : 9
+ 4-bit register                                        : 8
  5-bit register                                        : 1
  6-bit register                                        : 1
- 8-bit register                                        : 4
+ 8-bit register                                        : 5
  9-bit register                                        : 2
-# Comparators                                          : 170
+# Comparators                                          : 213
  10-bit comparator equal                               : 2
  10-bit comparator greater                             : 3
- 10-bit comparator lessequal                           : 36
- 11-bit comparator lessequal                           : 10
- 12-bit comparator lessequal                           : 7
+ 10-bit comparator lessequal                           : 47
+ 11-bit comparator lessequal                           : 14
+ 12-bit comparator lessequal                           : 9
  13-bit comparator lessequal                           : 1
  14-bit comparator lessequal                           : 1
  20-bit comparator greater                             : 3
@@ -1110,7 +1168,7 @@ Macro Statistics
  30-bit comparator lessequal                           : 20
  31-bit comparator lessequal                           : 2
  32-bit comparator equal                               : 3
- 32-bit comparator lessequal                           : 14
+ 32-bit comparator lessequal                           : 27
  33-bit comparator lessequal                           : 2
  34-bit comparator lessequal                           : 2
  35-bit comparator lessequal                           : 2
@@ -1133,11 +1191,13 @@ Macro Statistics
  49-bit comparator lessequal                           : 2
  50-bit comparator lessequal                           : 2
  51-bit comparator lessequal                           : 2
- 8-bit comparator lessequal                            : 20
- 9-bit comparator lessequal                            : 6
-# Multiplexers                                         : 1987
- 1-bit 13-to-1 multiplexer                             : 2
- 1-bit 2-to-1 multiplexer                              : 1913
+ 6-bit comparator lessequal                            : 6
+ 7-bit comparator lessequal                            : 2
+ 8-bit comparator lessequal                            : 23
+ 9-bit comparator lessequal                            : 8
+# Multiplexers                                         : 2047
+ 1-bit 13-to-1 multiplexer                             : 4
+ 1-bit 2-to-1 multiplexer                              : 1967
  1-bit 4-to-1 multiplexer                              : 2
  10-bit 2-to-1 multiplexer                             : 24
  16-bit 2-to-1 multiplexer                             : 4
@@ -1146,15 +1206,16 @@ Macro Statistics
  27-bit 2-to-1 multiplexer                             : 2
  3-bit 2-to-1 multiplexer                              : 2
  30-bit 2-to-1 multiplexer                             : 6
- 4-bit 2-to-1 multiplexer                              : 9
+ 4-bit 2-to-1 multiplexer                              : 10
  4-bit 20-to-1 multiplexer                             : 2
  4-bit 3-to-1 multiplexer                              : 1
  5-bit 2-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 3
  8-bit 2-to-1 multiplexer                              : 13
  9-bit 2-to-1 multiplexer                              : 2
 # Tristates                                            : 1
  1-bit tristate buffer                                 : 1
-# FSMs                                                 : 6
+# FSMs                                                 : 7
 # Xors                                                 : 5
  1-bit xor2                                            : 4
  1-bit xor4                                            : 1
@@ -1322,6 +1383,7 @@ The following registers are absorbed into counter <WaveformCounter>: 1 register 
 Unit <Waveform> synthesized (advanced).
 
 Synthesizing (advanced) Unit <game>.
+The following registers are absorbed into counter <Score>: 1 register on signal <Score>.
 The following registers are absorbed into counter <missTimer>: 1 register on signal <missTimer>.
 Unit <game> synthesized (advanced).
 
@@ -1332,22 +1394,25 @@ Macro Statistics
 # RAMs                                                 : 2
  16x8-bit single-port distributed Read Only RAM        : 1
  8x2-bit single-port distributed Read Only RAM         : 1
-# Adders/Subtractors                                   : 148
+# Adders/Subtractors                                   : 192
  10-bit adder                                          : 12
  10-bit addsub                                         : 3
- 10-bit subtractor                                     : 5
- 11-bit adder                                          : 13
- 12-bit adder                                          : 4
- 12-bit subtractor                                     : 10
+ 10-bit subtractor                                     : 9
+ 11-bit adder                                          : 25
+ 11-bit subtractor                                     : 1
+ 12-bit adder                                          : 8
+ 12-bit subtractor                                     : 20
  16-bit adder                                          : 2
  30-bit adder carry in                                 : 60
  31-bit subtractor                                     : 2
+ 4-bit adder                                           : 1
  4-bit adder carry in                                  : 2
  4-bit subtractor                                      : 1
+ 6-bit adder                                           : 12
  8-bit adder carry in                                  : 32
  9-bit addsub                                          : 1
  9-bit subtractor                                      : 1
-# Counters                                             : 10
+# Counters                                             : 11
  10-bit up counter                                     : 1
  20-bit up counter                                     : 3
  26-bit up counter                                     : 1
@@ -1355,14 +1420,15 @@ Macro Statistics
  4-bit up counter                                      : 1
  5-bit up counter                                      : 1
  6-bit down counter                                    : 1
-# Registers                                            : 313
- Flip-Flops                                            : 313
-# Comparators                                          : 170
+ 8-bit up counter                                      : 1
+# Registers                                            : 310
+ Flip-Flops                                            : 310
+# Comparators                                          : 213
  10-bit comparator equal                               : 2
  10-bit comparator greater                             : 3
- 10-bit comparator lessequal                           : 36
- 11-bit comparator lessequal                           : 10
- 12-bit comparator lessequal                           : 7
+ 10-bit comparator lessequal                           : 47
+ 11-bit comparator lessequal                           : 14
+ 12-bit comparator lessequal                           : 9
  13-bit comparator lessequal                           : 1
  14-bit comparator lessequal                           : 1
  20-bit comparator greater                             : 3
@@ -1370,7 +1436,7 @@ Macro Statistics
  30-bit comparator lessequal                           : 20
  31-bit comparator lessequal                           : 2
  32-bit comparator equal                               : 3
- 32-bit comparator lessequal                           : 14
+ 32-bit comparator lessequal                           : 27
  33-bit comparator lessequal                           : 2
  34-bit comparator lessequal                           : 2
  35-bit comparator lessequal                           : 2
@@ -1393,22 +1459,25 @@ Macro Statistics
  49-bit comparator lessequal                           : 2
  50-bit comparator lessequal                           : 2
  51-bit comparator lessequal                           : 2
- 8-bit comparator lessequal                            : 20
- 9-bit comparator lessequal                            : 6
-# Multiplexers                                         : 1985
- 1-bit 13-to-1 multiplexer                             : 2
- 1-bit 2-to-1 multiplexer                              : 1920
+ 6-bit comparator lessequal                            : 6
+ 7-bit comparator lessequal                            : 2
+ 8-bit comparator lessequal                            : 23
+ 9-bit comparator lessequal                            : 8
+# Multiplexers                                         : 2045
+ 1-bit 13-to-1 multiplexer                             : 4
+ 1-bit 2-to-1 multiplexer                              : 1974
  1-bit 4-to-1 multiplexer                              : 2
  10-bit 2-to-1 multiplexer                             : 24
  16-bit 2-to-1 multiplexer                             : 4
  3-bit 2-to-1 multiplexer                              : 2
  30-bit 2-to-1 multiplexer                             : 6
- 4-bit 2-to-1 multiplexer                              : 8
+ 4-bit 2-to-1 multiplexer                              : 9
  4-bit 20-to-1 multiplexer                             : 2
  4-bit 3-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 3
  8-bit 2-to-1 multiplexer                              : 12
  9-bit 2-to-1 multiplexer                              : 2
-# FSMs                                                 : 6
+# FSMs                                                 : 7
 # Xors                                                 : 5
  1-bit xor2                                            : 4
  1-bit xor4                                            : 1
@@ -1542,10 +1611,6 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_4> (without i
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_2> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_1> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <NoteC_0> (without init value) has a constant value of 0 in block <InputModule>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Score_0> (without init value) has a constant value of 0 in block <game>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Score_1> (without init value) has a constant value of 0 in block <game>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Score_2> (without init value) has a constant value of 0 in block <game>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Score_3> (without init value) has a constant value of 0 in block <game>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <NoteC_3> in Unit <InputModule> is equivalent to the following 7 FFs/Latches, which will be removed : <NoteC_7> <NoteC_9> <NoteC_11> <NoteC_13> <NoteC_14> <NoteC_15> <NoteC_17> 
 INFO:Xst:2261 - The FF/Latch <NoteD_1> in Unit <InputModule> is equivalent to the following 7 FFs/Latches, which will be removed : <NoteD_3> <NoteD_4> <NoteD_8> <NoteD_11> <NoteD_12> <NoteD_15> <NoteD_17> 
 INFO:Xst:2261 - The FF/Latch <NoteE_1> in Unit <InputModule> is equivalent to the following 5 FFs/Latches, which will be removed : <NoteE_2> <NoteE_7> <NoteE_12> <NoteE_14> <NoteE_17> 
@@ -1562,6 +1627,15 @@ Optimizing FSM <VGAcontroller/hsyncModule/FSM_0> on signal <State[1:3]> with one
 -------------------
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <VGAcontroller/vsyncModule/FSM_0> on signal <State[1:3]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 001
+ 01    | 010
+ 11    | 100
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <game_inst/FSM_2> on signal <State[1:3]> with one-hot encoding.
 -------------------
  State | Encoding
 -------------------
@@ -1603,13 +1677,14 @@ Optimizing FSM <game_inst/ReadUnit/controllerUnit/FSM_1> on signal <State[1:4]> 
  1000  | 1000
  1001  | 1001
 -------------------
-WARNING:Xst:1710 - FF/Latch <FirstByte_3> (without init value) has a constant value of 0 in block <TopLevelController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <FirstByte_2> (without init value) has a constant value of 0 in block <TopLevelController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FirstByte_3> (without init value) has a constant value of 0 in block <TopLevelController>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FirstByte_5> (without init value) has a constant value of 0 in block <TopLevelController>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FirstByte_6> (without init value) has a constant value of 0 in block <TopLevelController>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <RestartUnit/State_FSM_FFd2> (without init value) has a constant value of 0 in block <hsyncModuleVer5>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <paddlePosition_0> (without init value) has a constant value of 0 in block <game>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <paddlePosition_1> (without init value) has a constant value of 0 in block <game>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <FirstByte_0> in Unit <TopLevelController> is equivalent to the following 2 FFs/Latches, which will be removed : <FirstByte_4> <FirstByte_7> 
+INFO:Xst:2261 - The FF/Latch <FirstByte_0> in Unit <TopLevelController> is equivalent to the following 3 FFs/Latches, which will be removed : <FirstByte_1> <FirstByte_4> <FirstByte_7> 
 WARNING:Xst:1989 - Unit <game>: instances <ReadUnit/DataUnit/BaudUnit/ClockFrequency[29]_BaudRate[19]_div_3>, <ReadUnit/BaudUnit/ClockFrequency[29]_BaudRate[19]_div_3> of unit <div_30u_21u> are equivalent, second instance is removed
 WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
    incompatible with the Spartan6 architecture. The two primary causes of this is
@@ -1710,6 +1785,7 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTcl
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_6> (without init value) has a constant value of 0 in block <PongwithSoundandFeatures>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_8> (without init value) has a constant value of 0 in block <PongwithSoundandFeatures>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <VGAcontroller/CRTclockUnit/Count_9> (without init value) has a constant value of 0 in block <PongwithSoundandFeatures>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <game_inst/Score_7> (without init value) has a constant value of 0 in block <PongwithSoundandFeatures>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <game_inst/ballY_0> (without init value) has a constant value of 0 in block <PongwithSoundandFeatures>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <game_inst/ballX_0> (without init value) has a constant value of 0 in block <PongwithSoundandFeatures>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <SoundModule/PlayNoteUnit/Timer/SecondsCounter_25> (without init value) has a constant value of 0 in block <PongwithSoundandFeatures>. This FF/Latch will be trimmed during the optimization process.
@@ -1744,23 +1820,26 @@ INFO:Xst:2261 - The FF/Latch <game_inst/ReadUnit/BaudUnit/baud_count_15> in Unit
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block PongwithSoundandFeatures, actual ratio is 9.
+Found area constraint ratio of 100 (+ 5) on block PongwithSoundandFeatures, actual ratio is 11.
 FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_0 has been replicated 1 time(s)
 FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_1 has been replicated 1 time(s)
-FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_2 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_2 has been replicated 2 time(s)
 FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_3 has been replicated 1 time(s)
-FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_4 has been replicated 2 time(s)
-FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_5 has been replicated 1 time(s)
-FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_6 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_4 has been replicated 3 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_5 has been replicated 2 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_6 has been replicated 2 time(s)
 FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_7 has been replicated 2 time(s)
-FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_8 has been replicated 1 time(s)
-FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_9 has been replicated 1 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_8 has been replicated 2 time(s)
+FlipFlop VGAcontroller/hsyncModule/XPositionCounter/Q_9 has been replicated 2 time(s)
 FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_0 has been replicated 1 time(s)
 FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_2 has been replicated 1 time(s)
 FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_3 has been replicated 1 time(s)
-FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_4 has been replicated 2 time(s)
-FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_5 has been replicated 2 time(s)
-FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_6 has been replicated 2 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_4 has been replicated 3 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_5 has been replicated 1 time(s)
+FlipFlop VGAcontroller/vsyncModule/YPositionCounter/Q_6 has been replicated 1 time(s)
+FlipFlop game_inst/Score_4 has been replicated 1 time(s)
+FlipFlop game_inst/ballY_1 has been replicated 1 time(s)
+FlipFlop game_inst/paddlePosition_4 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -1773,8 +1852,8 @@ Unit <PongwithSoundandFeatures> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 282
- Flip-Flops                                            : 282
+# Registers                                            : 298
+ Flip-Flops                                            : 298
 # Shift Registers                                      : 2
  2-bit shift register                                  : 2
 
@@ -1799,36 +1878,36 @@ Top Level Output File Name         : PongwithSoundandFeatures.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1082
+# BELS                             : 1202
 #      GND                         : 1
-#      INV                         : 14
-#      LUT1                        : 41
-#      LUT2                        : 68
-#      LUT3                        : 166
-#      LUT4                        : 139
-#      LUT5                        : 130
-#      LUT6                        : 180
-#      MUXCY                       : 202
-#      MUXF7                       : 16
+#      INV                         : 16
+#      LUT1                        : 47
+#      LUT2                        : 73
+#      LUT3                        : 165
+#      LUT4                        : 162
+#      LUT5                        : 134
+#      LUT6                        : 244
+#      MUXCY                       : 209
+#      MUXF7                       : 19
 #      VCC                         : 1
-#      XORCY                       : 124
-# FlipFlops/Latches                : 284
-#      FD                          : 29
-#      FDC                         : 69
+#      XORCY                       : 131
+# FlipFlops/Latches                : 300
+#      FD                          : 35
+#      FDC                         : 74
 #      FDCE                        : 12
-#      FDE                         : 42
-#      FDR                         : 59
+#      FDE                         : 45
+#      FDR                         : 60
 #      FDRE                        : 66
-#      FDS                         : 4
+#      FDS                         : 5
 #      FDSE                        : 3
 # Shift Registers                  : 2
 #      SRLC16E                     : 2
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 17
+# IO Buffers                       : 25
 #      IBUF                        : 4
 #      IOBUF                       : 1
-#      OBUF                        : 12
+#      OBUF                        : 20
 
 Device utilization summary:
 ---------------------------
@@ -1837,22 +1916,22 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             284  out of  18224     1%  
- Number of Slice LUTs:                  740  out of   9112     8%  
-    Number used as Logic:               738  out of   9112     8%  
+ Number of Slice Registers:             300  out of  18224     1%  
+ Number of Slice LUTs:                  843  out of   9112     9%  
+    Number used as Logic:               841  out of   9112     9%  
     Number used as Memory:                2  out of   2176     0%  
        Number used as SRL:                2
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    767
-   Number with an unused Flip Flop:     483  out of    767    62%  
-   Number with an unused LUT:            27  out of    767     3%  
-   Number of fully used LUT-FF pairs:   257  out of    767    33%  
+ Number of LUT Flip Flop pairs used:    879
+   Number with an unused Flip Flop:     579  out of    879    65%  
+   Number with an unused LUT:            36  out of    879     4%  
+   Number of fully used LUT-FF pairs:   264  out of    879    30%  
    Number of unique control sets:        33
 
 IO Utilization: 
- Number of IOs:                          18
- Number of bonded IOBs:                  18  out of    232     7%  
+ Number of IOs:                          26
+ Number of bonded IOBs:                  26  out of    232    11%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
@@ -1878,7 +1957,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-Clock                              | BUFGP                  | 286   |
+Clock                              | BUFGP                  | 302   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -1889,9 +1968,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 6.211ns (Maximum Frequency: 161.003MHz)
-   Minimum input arrival time before clock: 6.141ns
-   Maximum output required time after clock: 12.208ns
+   Minimum period: 6.320ns (Maximum Frequency: 158.233MHz)
+   Minimum input arrival time before clock: 6.284ns
+   Maximum output required time after clock: 14.428ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -1900,80 +1979,81 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clock'
-  Clock period: 6.211ns (frequency: 161.003MHz)
-  Total number of paths / destination ports: 62657 / 442
+  Clock period: 6.320ns (frequency: 158.233MHz)
+  Total number of paths / destination ports: 67330 / 462
 -------------------------------------------------------------------------
-Delay:               6.211ns (Levels of Logic = 5)
-  Source:            VGAcontroller/vsyncModule/YPositionCounter/Q_9 (FF)
-  Destination:       VGAcontroller/vsyncModule/YPositionCounter/Q_8 (FF)
+Delay:               6.320ns (Levels of Logic = 6)
+  Source:            game_inst/ballX_3 (FF)
+  Destination:       game_inst/bounceY (FF)
   Source Clock:      Clock rising
   Destination Clock: Clock rising
 
-  Data Path: VGAcontroller/vsyncModule/YPositionCounter/Q_9 to VGAcontroller/vsyncModule/YPositionCounter/Q_8
+  Data Path: game_inst/ballX_3 to game_inst/bounceY
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             16   0.447   1.233  VGAcontroller/vsyncModule/YPositionCounter/Q_9 (VGAcontroller/vsyncModule/YPositionCounter/Q_9)
-     LUT5:I2->O            6   0.205   0.745  VGAcontroller/vsyncModule/FrameEnd<9>_SW0 (N48)
-     LUT6:I5->O           21   0.205   1.114  VGAcontroller/vsyncModule/FrameEnd_LineEndOneShot_OR_44_o1 (VGAcontroller/vsyncModule/FrameEnd_LineEndOneShot_OR_44_o)
-     LUT5:I4->O            4   0.205   0.931  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_A51 (VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_A<4>)
-     LUT6:I2->O            2   0.203   0.617  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_cy<5>1 (VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_cy<5>)
-     LUT6:I5->O            1   0.205   0.000  VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_rs_xor<8>11 (VGAcontroller/vsyncModule/YPositionCounter/Mmux_NextQ3_split<8>)
-     FDC:D                     0.102          VGAcontroller/vsyncModule/YPositionCounter/Q_8
+     FDE:C->Q             10   0.447   1.085  game_inst/ballX_3 (game_inst/ballX_3)
+     LUT5:I2->O            4   0.205   0.684  game_inst/Madd_n0215_cy<5>11 (game_inst/Madd_n0215_cy<5>)
+     LUT5:I4->O            2   0.205   0.961  game_inst/Madd_n0215_xor<9>11 (game_inst/n0215<9>)
+     LUT5:I0->O            0   0.203   0.000  game_inst/Mcompar_GND_35_o_BUS_0006_LessThan_57_o_lutdi4 (game_inst/Mcompar_GND_35_o_BUS_0006_LessThan_57_o_lutdi4)
+     MUXCY:DI->O          17   0.339   1.028  game_inst/Mcompar_GND_35_o_BUS_0006_LessThan_57_o_cy<4> (game_inst/GND_35_o_BUS_0006_LessThan_57_o)
+     LUT4:I3->O            3   0.205   0.651  game_inst/ball1 (game_inst/ball)
+     LUT6:I5->O            1   0.205   0.000  game_inst/bounceY_glue_set (game_inst/bounceY_glue_set)
+     FDR:D                     0.102          game_inst/bounceY
     ----------------------------------------
-    Total                      6.211ns (1.572ns logic, 4.639ns route)
-                                       (25.3% logic, 74.7% route)
+    Total                      6.320ns (1.911ns logic, 4.409ns route)
+                                       (30.2% logic, 69.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
-  Total number of paths / destination ports: 228 / 224
+  Total number of paths / destination ports: 250 / 240
 -------------------------------------------------------------------------
-Offset:              6.141ns (Levels of Logic = 5)
+Offset:              6.284ns (Levels of Logic = 4)
   Source:            Reset (PAD)
-  Destination:       game_inst/missTimer_5 (FF)
+  Destination:       game_inst/Score_2 (FF)
   Destination Clock: Clock rising
 
-  Data Path: Reset to game_inst/missTimer_5
+  Data Path: Reset to game_inst/Score_2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           197   1.222   2.298  Reset_IBUF (Reset_IBUF)
-     LUT4:I0->O           14   0.203   0.958  game_inst/GND_35_o_GND_35_o_OR_151_o4 (game_inst/GND_35_o_GND_35_o_OR_151_o)
-     LUT6:I5->O            1   0.205   0.000  game_inst/_n02431_SW7_G (N143)
-     MUXF7:I1->O           1   0.140   0.808  game_inst/_n02431_SW7 (N135)
-     LUT6:I3->O            1   0.205   0.000  game_inst/missTimer_5_rstpot (game_inst/missTimer_5_rstpot)
-     FD:D                      0.102          game_inst/missTimer_5
+     IBUF:I->O           208   1.222   2.303  Reset_IBUF (Reset_IBUF)
+     LUT4:I0->O           22   0.203   1.362  game_inst/GND_35_o_GND_35_o_OR_153_o4 (game_inst/GND_35_o_GND_35_o_OR_153_o)
+     LUT5:I2->O            1   0.205   0.684  game_inst/_n02741_SW9 (N196)
+     LUT6:I4->O            1   0.203   0.000  game_inst/Score_2_rstpot (game_inst/Score_2_rstpot)
+     FD:D                      0.102          game_inst/Score_2
     ----------------------------------------
-    Total                      6.141ns (2.077ns logic, 4.064ns route)
-                                       (33.8% logic, 66.2% route)
+    Total                      6.284ns (1.935ns logic, 4.349ns route)
+                                       (30.8% logic, 69.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
-  Total number of paths / destination ports: 5380 / 9
+  Total number of paths / destination ports: 9373 / 17
 -------------------------------------------------------------------------
-Offset:              12.208ns (Levels of Logic = 10)
-  Source:            VGAcontroller/hsyncModule/XPositionCounter/Q_3 (FF)
+Offset:              14.428ns (Levels of Logic = 11)
+  Source:            VGAcontroller/vsyncModule/YPositionCounter/Q_3 (FF)
   Destination:       green<2> (PAD)
   Source Clock:      Clock rising
 
-  Data Path: VGAcontroller/hsyncModule/XPositionCounter/Q_3 to green<2>
+  Data Path: VGAcontroller/vsyncModule/YPositionCounter/Q_3 to green<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q             39   0.447   1.620  VGAcontroller/hsyncModule/XPositionCounter/Q_3 (VGAcontroller/hsyncModule/XPositionCounter/Q_3)
-     LUT3:I0->O            1   0.205   0.827  game_inst/_i000036/GND_54_o_GND_54_o_LessThan_15_o1_SW0 (N6)
-     LUT6:I2->O            6   0.203   0.973  game_inst/_i000036/GND_54_o_GND_54_o_LessThan_15_o1 (game_inst/_i000036/GND_54_o_GND_54_o_LessThan_15_o)
-     LUT5:I2->O            5   0.205   0.715  game_inst/_i000036/segmentC1 (game_inst/_i000036/segmentC)
-     LUT6:I5->O            2   0.205   0.617  game_inst/_i000036/segmentB_segmentC_OR_107_o1 (game_inst/_i000036/segmentB_segmentC_OR_107_o)
-     LUT5:I4->O            1   0.205   0.580  game_inst/_i000036/segmentB_segmentG_OR_109_o1 (game_inst/_i000036/segmentB_segmentG_OR_109_o)
-     LUT6:I5->O            1   0.205   0.000  game_inst/_i000036/Mmux_digitpixel_6 (game_inst/_i000036/Mmux_digitpixel_6)
-     MUXF7:I1->O           1   0.140   0.580  game_inst/_i000036/Mmux_digitpixel_5_f7 (game_inst/_i000036/Mmux_digitpixel_5_f7)
-     LUT5:I4->O            1   0.205   0.924  game_inst/green<2>3 (game_inst/green<2>2)
-     LUT6:I1->O            1   0.203   0.579  game_inst/green<2>6 (green_2_OBUF)
+     FDC:C->Q             27   0.447   1.449  VGAcontroller/vsyncModule/YPositionCounter/Q_3 (VGAcontroller/vsyncModule/YPositionCounter/Q_3)
+     LUT3:I0->O            2   0.205   0.864  game_inst/_i000036/digitYPosition[9]_ypos[9]_LessThan_6_o21 (game_inst/_i000036/digitYPosition[9]_ypos[9]_LessThan_6_o2)
+     LUT5:I1->O           22   0.203   1.498  game_inst/_i000036/digitYPosition[9]_ypos[9]_LessThan_6_o11 (game_inst/_i000036/digitYPosition[9]_ypos[9]_LessThan_6_o)
+     LUT6:I0->O            3   0.203   0.995  game_inst/_i000040/segmentA (game_inst/_i000040/segmentA)
+     LUT6:I1->O            4   0.203   0.788  game_inst/_i000040/segmentA_segmentC_OR_133_o1 (game_inst/_i000040/segmentA_segmentC_OR_133_o)
+     LUT2:I0->O            2   0.203   0.961  game_inst/_i000040/segmentA_segmentD_OR_129_o1 (game_inst/_i000040/segmentA_segmentD_OR_129_o)
+     LUT6:I1->O            1   0.203   0.580  game_inst/_i000040/segmentA_segmentF_OR_125_o1 (game_inst/_i000040/segmentA_segmentF_OR_125_o)
+     LUT6:I5->O            1   0.205   0.000  game_inst/_i000040/Mmux_digitpixel_7 (game_inst/_i000040/Mmux_digitpixel_7)
+     MUXF7:I0->O           1   0.131   0.808  game_inst/_i000040/Mmux_digitpixel_5_f7 (game_inst/_i000040/Mmux_digitpixel_5_f7)
+     LUT6:I3->O            1   0.205   0.924  game_inst/green<2>18 (game_inst/green<2>17)
+     LUT6:I1->O            1   0.203   0.579  game_inst/green<2>19 (green_2_OBUF)
      OBUF:I->O                 2.571          green_2_OBUF (green<2>)
     ----------------------------------------
-    Total                     12.208ns (4.794ns logic, 7.414ns route)
-                                       (39.3% logic, 60.7% route)
+    Total                     14.428ns (4.982ns logic, 9.446ns route)
+                                       (34.5% logic, 65.5% route)
 
 =========================================================================
 
@@ -1985,20 +2065,20 @@ Clock to Setup on destination clock Clock
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clock          |    6.211|         |         |         |
+Clock          |    6.320|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 17.13 secs
+Total REAL time to Xst completion: 51.00 secs
+Total CPU time to Xst completion: 50.84 secs
  
 --> 
 
-Total memory usage is 279200 kilobytes
+Total memory usage is 312672 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  342 (   0 filtered)
+Number of warnings :  348 (   0 filtered)
 Number of infos    :   36 (   0 filtered)
 

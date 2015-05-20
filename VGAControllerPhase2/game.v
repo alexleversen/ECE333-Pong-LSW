@@ -30,9 +30,10 @@ module game(input go,
 				output [1:0] blue,
 				output reg Play,
 				output reg [1:0] Cause,
-				output reg [3:0] Score,
+				output reg [7:0] Score,
 				inout SDA,
-				output SCL);
+				output SCL,
+				output [7:0] temp);
 		
 // paddle movement		
 reg [8:0] paddlePosition;
@@ -96,16 +97,15 @@ always @(posedge clk25) begin
 	 wire DONE,StartReading;
 	 TwoTemperatureConverter ConvertUnit(Temp1,Temp2,Temp1D1,Temp1D0,Temp2D1,Temp2D0);
 	 TopLevelController TopLevelController(go,8'b10010011,8'b10010101,RecData,DONE,StartReading,FirstByte,Temp1,Temp2,reset,clk25);
-	 ReadTempI2C ReadUnit(20'd19200,30'd100000000,FirstByte,clk25,reset,StartReading,RecData,DONE,SCL,SDA);
+	 ReadTempI2C ReadUnit(20'd19200,30'd100000000,FirstByte,clk25,reset,StartReading,RecData,DONE,SCL,SDA); 
+assign temp = Temp1;	
 		
 		
-		
-		
-		
-		
-wire digpix1, digpix2;
-VGA7SegDisplay(575 , 50, xpos, ypos, Temp1D0, digpix1);
-VGA7SegDisplay(600 , 50, xpos, ypos, Temp1D1, digpix2);
+wire digpix1, digpix2,digpix3,digpix4;
+VGA7SegDisplay(575 , 50, xpos, ypos, Temp1D1, digpix1);
+VGA7SegDisplay(600 , 50, xpos, ypos, Temp1D0, digpix2);
+VGA7SegDisplay(20, 50, xpos,ypos,(Score/4)/10,digpix3);
+VGA7SegDisplay(45, 50, xpos,ypos,(Score/4)%10,digpix4);
 //VGA7SegDisplay(input [9:0] digitXPosition, digitYPosition, xpos, ypos,[3:0] digit,digitpixel
 // pixel color	
 reg [5:0] missTimer;	
@@ -115,16 +115,20 @@ wire bottom = (visible && ypos >= 476);
 wire left = (visible && xpos <= 8);
 wire right = (visible && xpos >= 636);
 wire border = (visible && (left || right || top));
-wire paddle = (xpos >= paddlePosition+4 && xpos <= paddlePosition+124 && ypos >= 440 && ypos <= 447);
+wire paddle = (xpos >= paddlePosition+4 && xpos <= paddlePosition+124-Score && ypos >= 440 && ypos <= 447);
 wire ball = (xpos >= ballX && xpos <= ballX+7 && ypos >= ballY && ypos <= ballY+7);
 wire background = (visible && !(border || paddle || ball));
 wire checkerboard = (xpos[5] ^ ypos[5]);
 wire missed = visible && missTimer != 0;
+reg ScoreFlag;
+wire ScoreFlagOneShot;
 
 assign red   = { missed || border || paddle, 2'b00 };
-assign green = { !missed && (border || paddle || ball || digpix1 || digpix2), 2'b00 };
+assign green = { !missed && (border || paddle || ball || digpix1 || digpix2 || digpix3 || digpix4), 2'b00 };
 assign blue  = { !missed && (border || ball), background && checkerboard };//, background && !checkerboard, background && !checkerboard  }; 
 		
+ClockedPositiveOneShot(ScoreFlag,ScoreFlagOneShot,reset,clk25);
+
 // ball collision	
 always @(posedge clk25) begin
 	if (!endOfFrame) begin
@@ -132,10 +136,23 @@ always @(posedge clk25) begin
 			bounceX <= 1;
 		if (ball && (top || bottom || (paddle && ballYdir)))
 			bounceY <= 1;
+		if(ball && (paddle && ballYdir))
+			ScoreFlag<=1;
+		else
+			begin
+			ScoreFlag<=0;
+			end
 		if (ball && bottom)
-			begin missTimer <= 63; Play2 <= 1; Cause2 <= 1; end 
+			begin missTimer <= 63; Play2 <= 1; Cause2 <= 1; Score <= 0; end 
 		else
 			begin Play2 <= 0; Cause2 <= 0; end
+		if(ScoreFlagOneShot==1)
+		begin
+			if(Score<120)
+				Score<=Score+1;
+			else
+				Score<=Score;
+		end
 	end
 	else begin
 		//if (ballX == 0 && ballY == 0) begin // cheesy reset handling, assumes initial value of 0

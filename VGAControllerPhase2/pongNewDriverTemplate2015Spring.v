@@ -19,7 +19,8 @@ module PongwithSoundandFeatures(
     output [1:0] blue,
     output hsync, vsync, Speaker,
 	 output SCL,
-	 inout SDA
+	 inout SDA,
+	 output [7:0] temp
     );
 
 wire [9:0] xpos;
@@ -30,6 +31,6 @@ parameter [9:0] NumberofPixels=10'd640, NumberofLines=10'd480, SystemClock=10'd1
 
 CRTcontrollerVer5 VGAcontroller(NumberofPixels, NumberofLines, SystemClock, hsync, vsync, xpos, ypos, Reset, Clock);
 PlaySound SoundModule(Play, Cause, Speaker, Reset, Clock);
-game game_inst(go, Clock, Reset, xpos, ypos, rota, rotb, red, green, blue, Play, Cause, Score, SDA, SCL);
+game game_inst(go, Clock, Reset, xpos, ypos, rota, rotb, red, green, blue, Play, Cause, Score, SDA, SCL, temp);
 					
 endmodule

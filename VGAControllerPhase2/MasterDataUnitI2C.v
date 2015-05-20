@@ -19,7 +19,7 @@ input [19:0] BaudRate;  //up to 1,000,000
 input [29:0] ClockFrequency; //up to 1GHz 
 assign SCL =  ClockI2C; 
 wire ClockI2C; 
-BaudRateGeneratorI2C  BaudUnit(BaudEnable, ClockI2C, Reset, clock, BaudRate, ClockFrequency); 
+BaudRateGeneratorI2C  BaudUnit(BaudEnable, ClockI2C, Reset, clock, BaudRate, 30'd100000000); 
 wire ShiftDataIn, ShiftDataOut; 
 ShiftRegisterI2C shiftUnit(SentData,clock,Reset, ShiftDataIn,ShiftorHold,WriteLoad,ReceivedData,ShiftDataOut);
 SDAmodule SDAUnit(ReadorWrite, Select, ShiftDataOut,StartStopAck,ShiftDataIn,SDA);

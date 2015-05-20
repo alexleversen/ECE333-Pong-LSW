@@ -17,22 +17,22 @@
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\ThreeMusicNotes.v" Line 17: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NoteC</arg>&gt;. Formal port size is <arg fmt="%d" index="2">25</arg>-bit while actual signal size is <arg fmt="%d" index="1">20</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 54: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 55: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 58: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 59: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 82: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 83: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 84: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 85: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 87: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 88: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 89: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 90: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\TwoTemperatureConverter.v" Line 30: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
@@ -41,7 +41,19 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\TwoTemperatureConverter.v" Line 32: Result of <arg fmt="%d" index="1">8</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 97: Assignment to <arg fmt="%s" index="1">Temp2D1</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 98: Assignment to <arg fmt="%s" index="1">Temp2D1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 105: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 105: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">digitXPosition</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 106: Module instantiation should have an instance name
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 106: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">digitXPosition</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 107: Module instantiation should have an instance name
@@ -56,16 +68,22 @@
 <msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 108: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">digitXPosition</arg>&gt;. Formal port size is <arg fmt="%d" index="2">10</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 157: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="604" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 130: Module instantiation should have an instance name
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" Line 33: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Score</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 152: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" Line 33: Assignment to <arg fmt="%s" index="1">Score</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v" Line 174: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v</arg>&quot; line <arg fmt="%s" index="2">33</arg>: Output port &lt;<arg fmt="%s" index="3">Score</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">game_inst</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" Line 34: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Score</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v" Line 34: Assignment to <arg fmt="%s" index="1">Score</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\pongNewDriverTemplate2015Spring.v</arg>&quot; line <arg fmt="%s" index="2">34</arg>: Output port &lt;<arg fmt="%s" index="3">Score</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">game_inst</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\hsyncModuleVer5.v</arg>&quot; line <arg fmt="%s" index="2">35</arg>: Output port &lt;<arg fmt="%s" index="3">TerminalCount</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XPositionCounter</arg>&gt; is unconnected or connected to loadless signal.
@@ -182,10 +200,16 @@
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">Times2&lt;19&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v</arg>&quot; line <arg fmt="%s" index="2">97</arg>: Output port &lt;<arg fmt="%s" index="3">Temp2D1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ConvertUnit</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v</arg>&quot; line <arg fmt="%s" index="2">98</arg>: Output port &lt;<arg fmt="%s" index="3">Temp2D1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ConvertUnit</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v</arg>&quot; line <arg fmt="%s" index="2">97</arg>: Output port &lt;<arg fmt="%s" index="3">Temp2D0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ConvertUnit</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\williaad\Documents\Junior\ECE333\finalprojGIT\ECE333-Pong-LSW\ECE333-Pong-LSW\VGAControllerPhase2\game.v</arg>&quot; line <arg fmt="%s" index="2">98</arg>: Output port &lt;<arg fmt="%s" index="3">Temp2D0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ConvertUnit</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SecondChip</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ClockFrequency</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
 <msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
@@ -880,18 +904,6 @@ It will be removed from the design.
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">NoteC_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">InputModule</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Score_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Score_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Score_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Score_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">NoteC_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">InputModule</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;NoteC_7&gt; &lt;NoteC_9&gt; &lt;NoteC_11&gt; &lt;NoteC_13&gt; &lt;NoteC_14&gt; &lt;NoteC_15&gt; &lt;NoteC_17&gt; </arg>
 </msg>
 
@@ -904,7 +916,10 @@ It will be removed from the design.
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Play2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">game</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Cause2&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">FirstByte_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopLevelController</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">FirstByte_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopLevelController</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">FirstByte_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopLevelController</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">FirstByte_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopLevelController</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -922,7 +937,7 @@ It will be removed from the design.
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">paddlePosition_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">game</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">FirstByte_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopLevelController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;FirstByte_4&gt; &lt;FirstByte_7&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">FirstByte_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopLevelController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;FirstByte_1&gt; &lt;FirstByte_4&gt; &lt;FirstByte_7&gt; </arg>
 </msg>
 
 <msg type="warning" file="Xst" num="1989" delta="old" >Unit &lt;<arg fmt="%s" index="1">game</arg>&gt;: instances &lt;<arg fmt="%s" index="2">ReadUnit/DataUnit/BaudUnit/ClockFrequency[29]_BaudRate[19]_div_3</arg>&gt;, &lt;<arg fmt="%s" index="3">ReadUnit/BaudUnit/ClockFrequency[29]_BaudRate[19]_div_3</arg>&gt; of unit &lt;<arg fmt="%s" index="4">div_30u_21u</arg>&gt; are equivalent, second instance is removed
@@ -1064,6 +1079,9 @@ Xilinx highly recommends one of the following:
 </msg>
 
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">VGAcontroller/CRTclockUnit/Count_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PongwithSoundandFeatures</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">game_inst/Score_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PongwithSoundandFeatures</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">game_inst/ballY_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PongwithSoundandFeatures</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
